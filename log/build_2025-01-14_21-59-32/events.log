@@ -1,0 +1,256 @@
+[0.000000] (-) TimerEvent: {}
+[0.003403] (robotiq_gripper) JobQueued: {'identifier': 'robotiq_gripper', 'dependencies': OrderedDict()}
+[0.004580] (ur5_robot_description) JobQueued: {'identifier': 'ur5_robot_description', 'dependencies': OrderedDict()}
+[0.005259] (ur5_robot_py) JobQueued: {'identifier': 'ur5_robot_py', 'dependencies': OrderedDict()}
+[0.005451] (robotiq_gripper) JobStarted: {'identifier': 'robotiq_gripper'}
+[0.036444] (ur5_robot_description) JobStarted: {'identifier': 'ur5_robot_description'}
+[0.051729] (ur5_robot_py) JobStarted: {'identifier': 'ur5_robot_py'}
+[0.082183] (robotiq_gripper) JobProgress: {'identifier': 'robotiq_gripper', 'progress': 'cmake'}
+[0.085499] (robotiq_gripper) Command: {'cmd': ['/usr/bin/cmake', '/home/taj71/ur5_ws/src/robotiq_description', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/taj71/ur5_ws/install/robotiq_gripper'], 'cwd': '/home/taj71/ur5_ws/build/robotiq_gripper', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'taj71'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/taj71'), ('OLDPWD', '/home/taj71/ur5_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'taj71'), ('NAME', 'LAPTOP-6U927AMU'), ('WSL_INTEROP', '/run/WSL/414_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/home/taj71/.local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/opt/ros/iron/bin:/home/taj71/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Python312/Scripts/:/mnt/c/Program Files/Python312/:/mnt/c/Program Files/ARX-3.9.1/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs:/mnt/e/driver/chromedriver.exe:/mnt/c/Program Files/Java/jdk-21:/mnt/c/Program Files/Java/jdk-21/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/chocolatey/bin/ngrok.exe:/mnt/c/apache-maven-3.9.6/bin:/mnt/c/ProgramData/Jenkins/.jenkins/tools/hudson.plugins.sonar.SonarRunnerInstallation/sonar-scanner/bin:/mnt/c/Users/Tajish Farhan/AppData/Roaming/Python/Python312/Scripts:/mnt/c/Users/Tajish Farhan/AppData/Local/Programs/MiKTeX/miktex/bin/x64:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/anaconda3/Library/bin:/mnt/c/ffmpeg/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/Tajish Farhan/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Tajish Farhan/AppData/Local/Programs/Python/Python310/:/mnt/c/Program Files/ARX-3.9.1/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/msys64/home/Tajish Farhan/.splashkit:/mnt/c/msys64/home/Tajish Farhan/.splashkit/lib/win64:/mnt/c/msys64/home/Tajish Farhan/.splashkit/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Users/Tajish Farhan/AppData/Local/Microsoft/WindowsApps:/mnt/f/Microsoft VS Code/bin:/mnt/c/Users/Tajish Farhan/.dotnet/tools:/mnt/c/Program Files/dotnet:/mnt/c/Users/Tajish Farhan/AppData/Roaming/npm:/mnt/c/Program Files/nodejs:/mnt/c/WebDriver/bin:/mnt/c/Program Files/Python312:/mnt/c/Program Files/Python312/Scripts:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3.3/bin:/mnt/c/Users/Tajish Farhan/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/Java/jdk-21/bin:/mnt/c/sonar-scanner-5.0.1.3006-windows/bin:/mnt/c/Users/Tajish Farhan/AppData/Roaming/Python/Python312/Scripts:/mnt/c/Users/Tajish Farhan/AppData/Local/Pandoc/:/mnt/c/Users/Tajish Farhan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/ProgramData/anaconda3/Library/bin:/mnt/c/ffmpeg/bin:/mnt/c/Users/Tajish Farhan/AppData/Local/Programs/Ollama:/mnt/c/Users/Tajish Farhan/AppData/Local/Programs/Python/Python313/Scripts:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:96536e20-0af6-4f73-b426-5a072c73edbe'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/taj71/ur5_ws/build/robotiq_gripper'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('VTE_VERSION', '6800'), ('HOSTTYPE', 'x86_64'), ('WSLENV', '')]), 'shell': False}
+[0.095099] (ur5_robot_description) JobProgress: {'identifier': 'ur5_robot_description', 'progress': 'cmake'}
+[0.102062] (ur5_robot_description) JobProgress: {'identifier': 'ur5_robot_description', 'progress': 'build'}
+[0.103076] (-) TimerEvent: {}
+[0.105620] (ur5_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/taj71/ur5_ws/build/ur5_robot_description', '--', '-j8', '-l8'], 'cwd': '/home/taj71/ur5_ws/build/ur5_robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'taj71'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/taj71'), ('OLDPWD', '/home/taj71/ur5_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'taj71'), ('NAME', 'LAPTOP-6U927AMU'), ('WSL_INTEROP', '/run/WSL/414_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/home/taj71/.local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/opt/ros/iron/bin:/home/taj71/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Python312/Scripts/:/mnt/c/Program Files/Python312/:/mnt/c/Program Files/ARX-3.9.1/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs:/mnt/e/driver/chromedriver.exe:/mnt/c/Program Files/Java/jdk-21:/mnt/c/Program Files/Java/jdk-21/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/chocolatey/bin/ngrok.exe:/mnt/c/apache-maven-3.9.6/bin:/mnt/c/ProgramData/Jenkins/.jenkins/tools/hudson.plugins.sonar.SonarRunnerInstallation/sonar-scanner/bin:/mnt/c/Users/Tajish Farhan/AppData/Roaming/Python/Python312/Scripts:/mnt/c/Users/Tajish Farhan/AppData/Local/Programs/MiKTeX/miktex/bin/x64:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/anaconda3/Library/bin:/mnt/c/ffmpeg/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/Tajish Farhan/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Tajish Farhan/AppData/Local/Programs/Python/Python310/:/mnt/c/Program Files/ARX-3.9.1/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/msys64/home/Tajish Farhan/.splashkit:/mnt/c/msys64/home/Tajish Farhan/.splashkit/lib/win64:/mnt/c/msys64/home/Tajish Farhan/.splashkit/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Users/Tajish Farhan/AppData/Local/Microsoft/WindowsApps:/mnt/f/Microsoft VS Code/bin:/mnt/c/Users/Tajish Farhan/.dotnet/tools:/mnt/c/Program Files/dotnet:/mnt/c/Users/Tajish Farhan/AppData/Roaming/npm:/mnt/c/Program Files/nodejs:/mnt/c/WebDriver/bin:/mnt/c/Program Files/Python312:/mnt/c/Program Files/Python312/Scripts:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3.3/bin:/mnt/c/Users/Tajish Farhan/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/Java/jdk-21/bin:/mnt/c/sonar-scanner-5.0.1.3006-windows/bin:/mnt/c/Users/Tajish Farhan/AppData/Roaming/Python/Python312/Scripts:/mnt/c/Users/Tajish Farhan/AppData/Local/Pandoc/:/mnt/c/Users/Tajish Farhan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/ProgramData/anaconda3/Library/bin:/mnt/c/ffmpeg/bin:/mnt/c/Users/Tajish Farhan/AppData/Local/Programs/Ollama:/mnt/c/Users/Tajish Farhan/AppData/Local/Programs/Python/Python313/Scripts:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:96536e20-0af6-4f73-b426-5a072c73edbe'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/taj71/ur5_ws/build/ur5_robot_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('VTE_VERSION', '6800'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.203331] (-) TimerEvent: {}
+[0.304356] (-) TimerEvent: {}
+[0.405126] (-) TimerEvent: {}
+[0.506117] (-) TimerEvent: {}
+[0.607076] (-) TimerEvent: {}
+[0.707972] (-) TimerEvent: {}
+[0.809033] (-) TimerEvent: {}
+[0.876206] (ur5_robot_description) CommandEnded: {'returncode': 0}
+[0.880185] (ur5_robot_description) JobProgress: {'identifier': 'ur5_robot_description', 'progress': 'install'}
+[0.898534] (ur5_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/taj71/ur5_ws/build/ur5_robot_description'], 'cwd': '/home/taj71/ur5_ws/build/ur5_robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'taj71'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/taj71'), ('OLDPWD', '/home/taj71/ur5_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'taj71'), ('NAME', 'LAPTOP-6U927AMU'), ('WSL_INTEROP', '/run/WSL/414_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/home/taj71/.local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/opt/ros/iron/bin:/home/taj71/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Python312/Scripts/:/mnt/c/Program Files/Python312/:/mnt/c/Program Files/ARX-3.9.1/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs:/mnt/e/driver/chromedriver.exe:/mnt/c/Program Files/Java/jdk-21:/mnt/c/Program Files/Java/jdk-21/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/chocolatey/bin/ngrok.exe:/mnt/c/apache-maven-3.9.6/bin:/mnt/c/ProgramData/Jenkins/.jenkins/tools/hudson.plugins.sonar.SonarRunnerInstallation/sonar-scanner/bin:/mnt/c/Users/Tajish Farhan/AppData/Roaming/Python/Python312/Scripts:/mnt/c/Users/Tajish Farhan/AppData/Local/Programs/MiKTeX/miktex/bin/x64:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/anaconda3/Library/bin:/mnt/c/ffmpeg/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/Tajish Farhan/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Tajish Farhan/AppData/Local/Programs/Python/Python310/:/mnt/c/Program Files/ARX-3.9.1/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/msys64/home/Tajish Farhan/.splashkit:/mnt/c/msys64/home/Tajish Farhan/.splashkit/lib/win64:/mnt/c/msys64/home/Tajish Farhan/.splashkit/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Users/Tajish Farhan/AppData/Local/Microsoft/WindowsApps:/mnt/f/Microsoft VS Code/bin:/mnt/c/Users/Tajish Farhan/.dotnet/tools:/mnt/c/Program Files/dotnet:/mnt/c/Users/Tajish Farhan/AppData/Roaming/npm:/mnt/c/Program Files/nodejs:/mnt/c/WebDriver/bin:/mnt/c/Program Files/Python312:/mnt/c/Program Files/Python312/Scripts:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3.3/bin:/mnt/c/Users/Tajish Farhan/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/Java/jdk-21/bin:/mnt/c/sonar-scanner-5.0.1.3006-windows/bin:/mnt/c/Users/Tajish Farhan/AppData/Roaming/Python/Python312/Scripts:/mnt/c/Users/Tajish Farhan/AppData/Local/Pandoc/:/mnt/c/Users/Tajish Farhan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/ProgramData/anaconda3/Library/bin:/mnt/c/ffmpeg/bin:/mnt/c/Users/Tajish Farhan/AppData/Local/Programs/Ollama:/mnt/c/Users/Tajish Farhan/AppData/Local/Programs/Python/Python313/Scripts:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:96536e20-0af6-4f73-b426-5a072c73edbe'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/taj71/ur5_ws/build/ur5_robot_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('VTE_VERSION', '6800'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.911217] (-) TimerEvent: {}
+[0.914464] (ur5_robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.915705] (ur5_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/meshes\n'}
+[0.916288] (ur5_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/meshes/wrist3.dae\n'}
+[0.917024] (ur5_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/meshes/shoulder.dae\n'}
+[0.917310] (ur5_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/meshes/base.dae\n'}
+[0.917536] (ur5_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/meshes/wrist1.dae\n'}
+[0.917696] (ur5_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/meshes/upperarm.dae\n'}
+[0.918034] (ur5_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/meshes/forearm.dae\n'}
+[0.918612] (ur5_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/meshes/wrist2.dae\n'}
+[0.918862] (ur5_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/urdf\n'}
+[0.919130] (ur5_robot_description) StdoutLine: {'line': b'-- Installing: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/urdf/ur5.urdf.xacro\n'}
+[0.919336] (ur5_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ament_index/resource_index/package_run_dependencies/ur5_robot_description\n'}
+[0.919543] (ur5_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ament_index/resource_index/parent_prefix_path/ur5_robot_description\n'}
+[0.919654] (ur5_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/environment/ament_prefix_path.sh\n'}
+[0.919777] (ur5_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/environment/ament_prefix_path.dsv\n'}
+[0.919959] (ur5_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/environment/path.sh\n'}
+[0.920068] (ur5_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/environment/path.dsv\n'}
+[0.920161] (ur5_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/local_setup.bash\n'}
+[0.920258] (ur5_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/local_setup.sh\n'}
+[0.920488] (ur5_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/local_setup.zsh\n'}
+[0.920659] (ur5_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/local_setup.dsv\n'}
+[0.920779] (ur5_robot_description) StdoutLine: {'line': b'-- Installing: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/package.dsv\n'}
+[0.920875] (ur5_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ament_index/resource_index/packages/ur5_robot_description\n'}
+[0.920972] (ur5_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/cmake/ur5_robot_descriptionConfig.cmake\n'}
+[0.921151] (ur5_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/cmake/ur5_robot_descriptionConfig-version.cmake\n'}
+[0.921667] (ur5_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/package.xml\n'}
+[0.924911] (ur5_robot_description) CommandEnded: {'returncode': 0}
+[0.998914] (ur5_robot_description) JobEnded: {'identifier': 'ur5_robot_description', 'rc': 0}
+[1.011386] (-) TimerEvent: {}
+[1.112080] (-) TimerEvent: {}
+[1.213043] (-) TimerEvent: {}
+[1.314136] (-) TimerEvent: {}
+[1.336453] (robotiq_gripper) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.414327] (-) TimerEvent: {}
+[1.515105] (-) TimerEvent: {}
+[1.615729] (-) TimerEvent: {}
+[1.716433] (-) TimerEvent: {}
+[1.817236] (-) TimerEvent: {}
+[1.918083] (-) TimerEvent: {}
+[2.018822] (-) TimerEvent: {}
+[2.119565] (-) TimerEvent: {}
+[2.220329] (-) TimerEvent: {}
+[2.321088] (-) TimerEvent: {}
+[2.392321] (ur5_robot_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ur5_robot_py', 'build', '--build-base', '/home/taj71/ur5_ws/build/ur5_robot_py/build', 'install', '--record', '/home/taj71/ur5_ws/build/ur5_robot_py/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/taj71/ur5_ws/src/ur5_robot_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'taj71', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/taj71', 'OLDPWD': '/home/taj71/ur5_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'iron', 'LOGNAME': 'taj71', 'NAME': 'LAPTOP-6U927AMU', 'WSL_INTEROP': '/run/WSL/414_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/home/taj71/.local/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/iron/bin:/home/taj71/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Python312/Scripts/:/mnt/c/Program Files/Python312/:/mnt/c/Program Files/ARX-3.9.1/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs:/mnt/e/driver/chromedriver.exe:/mnt/c/Program Files/Java/jdk-21:/mnt/c/Program Files/Java/jdk-21/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/chocolatey/bin/ngrok.exe:/mnt/c/apache-maven-3.9.6/bin:/mnt/c/ProgramData/Jenkins/.jenkins/tools/hudson.plugins.sonar.SonarRunnerInstallation/sonar-scanner/bin:/mnt/c/Users/Tajish Farhan/AppData/Roaming/Python/Python312/Scripts:/mnt/c/Users/Tajish Farhan/AppData/Local/Programs/MiKTeX/miktex/bin/x64:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/anaconda3/Library/bin:/mnt/c/ffmpeg/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/Tajish Farhan/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Tajish Farhan/AppData/Local/Programs/Python/Python310/:/mnt/c/Program Files/ARX-3.9.1/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/msys64/home/Tajish Farhan/.splashkit:/mnt/c/msys64/home/Tajish Farhan/.splashkit/lib/win64:/mnt/c/msys64/home/Tajish Farhan/.splashkit/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Users/Tajish Farhan/AppData/Local/Microsoft/WindowsApps:/mnt/f/Microsoft VS Code/bin:/mnt/c/Users/Tajish Farhan/.dotnet/tools:/mnt/c/Program Files/dotnet:/mnt/c/Users/Tajish Farhan/AppData/Roaming/npm:/mnt/c/Program Files/nodejs:/mnt/c/WebDriver/bin:/mnt/c/Program Files/Python312:/mnt/c/Program Files/Python312/Scripts:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3.3/bin:/mnt/c/Users/Tajish Farhan/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/Java/jdk-21/bin:/mnt/c/sonar-scanner-5.0.1.3006-windows/bin:/mnt/c/Users/Tajish Farhan/AppData/Roaming/Python/Python312/Scripts:/mnt/c/Users/Tajish Farhan/AppData/Local/Pandoc/:/mnt/c/Users/Tajish Farhan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/ProgramData/anaconda3/Library/bin:/mnt/c/ffmpeg/bin:/mnt/c/Users/Tajish Farhan/AppData/Local/Programs/Ollama:/mnt/c/Users/Tajish Farhan/AppData/Local/Programs/Python/Python313/Scripts:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:96536e20-0af6-4f73-b426-5a072c73edbe', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/taj71/ur5_ws/build/ur5_robot_py', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/taj71/ur5_ws/build/ur5_robot_py/prefix_override:/home/taj71/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/taj71/ur5_ws/install/ur5_robot_py/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'VTE_VERSION': '6800', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[2.421301] (-) TimerEvent: {}
+[2.522243] (-) TimerEvent: {}
+[2.623323] (-) TimerEvent: {}
+[2.724560] (-) TimerEvent: {}
+[2.825615] (-) TimerEvent: {}
+[2.926421] (-) TimerEvent: {}
+[3.027265] (-) TimerEvent: {}
+[3.128279] (-) TimerEvent: {}
+[3.151029] (ur5_robot_py) StdoutLine: {'line': b'running egg_info\n'}
+[3.154933] (ur5_robot_py) StdoutLine: {'line': b'writing ../../build/ur5_robot_py/ur5_robot_py.egg-info/PKG-INFO\n'}
+[3.157364] (ur5_robot_py) StdoutLine: {'line': b'writing dependency_links to ../../build/ur5_robot_py/ur5_robot_py.egg-info/dependency_links.txt\n'}
+[3.160631] (ur5_robot_py) StdoutLine: {'line': b'writing entry points to ../../build/ur5_robot_py/ur5_robot_py.egg-info/entry_points.txt\n'}
+[3.161434] (ur5_robot_py) StdoutLine: {'line': b'writing requirements to ../../build/ur5_robot_py/ur5_robot_py.egg-info/requires.txt\n'}
+[3.162115] (ur5_robot_py) StdoutLine: {'line': b'writing top-level names to ../../build/ur5_robot_py/ur5_robot_py.egg-info/top_level.txt\n'}
+[3.175771] (ur5_robot_py) StdoutLine: {'line': b"reading manifest file '../../build/ur5_robot_py/ur5_robot_py.egg-info/SOURCES.txt'\n"}
+[3.178877] (ur5_robot_py) StdoutLine: {'line': b"writing manifest file '../../build/ur5_robot_py/ur5_robot_py.egg-info/SOURCES.txt'\n"}
+[3.179653] (ur5_robot_py) StdoutLine: {'line': b'running build\n'}
+[3.179845] (ur5_robot_py) StdoutLine: {'line': b'running build_py\n'}
+[3.180457] (ur5_robot_py) StdoutLine: {'line': b'running install\n'}
+[3.181559] (ur5_robot_py) StdoutLine: {'line': b'running install_lib\n'}
+[3.185963] (ur5_robot_py) StdoutLine: {'line': b'running install_data\n'}
+[3.186941] (ur5_robot_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.194688] (ur5_robot_py) StdoutLine: {'line': b"removing '/home/taj71/ur5_ws/install/ur5_robot_py/lib/python3.10/site-packages/ur5_robot_py-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.195946] (ur5_robot_py) StdoutLine: {'line': b'Copying ../../build/ur5_robot_py/ur5_robot_py.egg-info to /home/taj71/ur5_ws/install/ur5_robot_py/lib/python3.10/site-packages/ur5_robot_py-0.0.0-py3.10.egg-info\n'}
+[3.201557] (ur5_robot_py) StdoutLine: {'line': b'running install_scripts\n'}
+[3.228542] (-) TimerEvent: {}
+[3.267746] (ur5_robot_py) StdoutLine: {'line': b"writing list of installed files to '/home/taj71/ur5_ws/build/ur5_robot_py/install.log'\n"}
+[3.328885] (-) TimerEvent: {}
+[3.365051] (ur5_robot_py) CommandEnded: {'returncode': 0}
+[3.395423] (ur5_robot_py) JobEnded: {'identifier': 'ur5_robot_py', 'rc': 0}
+[3.429189] (-) TimerEvent: {}
+[3.530161] (-) TimerEvent: {}
+[3.631184] (-) TimerEvent: {}
+[3.732138] (-) TimerEvent: {}
+[3.833033] (-) TimerEvent: {}
+[3.934054] (-) TimerEvent: {}
+[4.035063] (-) TimerEvent: {}
+[4.135883] (-) TimerEvent: {}
+[4.236733] (-) TimerEvent: {}
+[4.337650] (-) TimerEvent: {}
+[4.438543] (-) TimerEvent: {}
+[4.539532] (-) TimerEvent: {}
+[4.640437] (-) TimerEvent: {}
+[4.741414] (-) TimerEvent: {}
+[4.842573] (-) TimerEvent: {}
+[4.924672] (robotiq_gripper) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.942892] (-) TimerEvent: {}
+[5.043914] (-) TimerEvent: {}
+[5.144975] (-) TimerEvent: {}
+[5.246043] (-) TimerEvent: {}
+[5.347119] (-) TimerEvent: {}
+[5.448075] (-) TimerEvent: {}
+[5.548862] (-) TimerEvent: {}
+[5.649730] (-) TimerEvent: {}
+[5.750679] (-) TimerEvent: {}
+[5.851602] (-) TimerEvent: {}
+[5.952446] (-) TimerEvent: {}
+[6.053353] (-) TimerEvent: {}
+[6.154339] (-) TimerEvent: {}
+[6.255364] (-) TimerEvent: {}
+[6.356293] (-) TimerEvent: {}
+[6.457196] (-) TimerEvent: {}
+[6.557938] (-) TimerEvent: {}
+[6.658886] (-) TimerEvent: {}
+[6.759807] (-) TimerEvent: {}
+[6.860765] (-) TimerEvent: {}
+[6.961856] (-) TimerEvent: {}
+[7.062712] (-) TimerEvent: {}
+[7.070412] (robotiq_gripper) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.162875] (-) TimerEvent: {}
+[7.263801] (-) TimerEvent: {}
+[7.364582] (-) TimerEvent: {}
+[7.465455] (-) TimerEvent: {}
+[7.566341] (-) TimerEvent: {}
+[7.667108] (-) TimerEvent: {}
+[7.768055] (-) TimerEvent: {}
+[7.868897] (-) TimerEvent: {}
+[7.893937] (robotiq_gripper) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.912236] (robotiq_gripper) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[7.914095] (robotiq_gripper) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.916901] (robotiq_gripper) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.927134] (robotiq_gripper) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.969174] (-) TimerEvent: {}
+[8.069884] (-) TimerEvent: {}
+[8.170936] (-) TimerEvent: {}
+[8.271782] (-) TimerEvent: {}
+[8.372738] (-) TimerEvent: {}
+[8.473558] (-) TimerEvent: {}
+[8.574848] (-) TimerEvent: {}
+[8.675735] (-) TimerEvent: {}
+[8.776758] (-) TimerEvent: {}
+[8.831921] (robotiq_gripper) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.847847] (robotiq_gripper) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.848921] (robotiq_gripper) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.851104] (robotiq_gripper) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.876994] (-) TimerEvent: {}
+[8.977988] (-) TimerEvent: {}
+[9.078826] (-) TimerEvent: {}
+[9.179630] (-) TimerEvent: {}
+[9.280517] (-) TimerEvent: {}
+[9.381432] (-) TimerEvent: {}
+[9.482329] (-) TimerEvent: {}
+[9.583019] (-) TimerEvent: {}
+[9.683942] (-) TimerEvent: {}
+[9.784788] (-) TimerEvent: {}
+[9.885688] (-) TimerEvent: {}
+[9.986456] (-) TimerEvent: {}
+[10.087260] (-) TimerEvent: {}
+[10.188155] (-) TimerEvent: {}
+[10.288942] (-) TimerEvent: {}
+[10.389702] (-) TimerEvent: {}
+[10.490549] (-) TimerEvent: {}
+[10.591374] (-) TimerEvent: {}
+[10.692267] (-) TimerEvent: {}
+[10.793194] (-) TimerEvent: {}
+[10.894107] (-) TimerEvent: {}
+[10.995085] (-) TimerEvent: {}
+[11.096237] (-) TimerEvent: {}
+[11.197277] (-) TimerEvent: {}
+[11.298373] (-) TimerEvent: {}
+[11.399373] (-) TimerEvent: {}
+[11.500366] (-) TimerEvent: {}
+[11.601214] (-) TimerEvent: {}
+[11.702317] (-) TimerEvent: {}
+[11.803347] (-) TimerEvent: {}
+[11.904338] (-) TimerEvent: {}
+[12.005266] (-) TimerEvent: {}
+[12.106284] (-) TimerEvent: {}
+[12.207189] (-) TimerEvent: {}
+[12.308070] (-) TimerEvent: {}
+[12.408987] (-) TimerEvent: {}
+[12.509819] (-) TimerEvent: {}
+[12.610756] (-) TimerEvent: {}
+[12.711734] (-) TimerEvent: {}
+[12.812636] (-) TimerEvent: {}
+[12.913652] (-) TimerEvent: {}
+[13.014736] (-) TimerEvent: {}
+[13.115915] (-) TimerEvent: {}
+[13.217072] (-) TimerEvent: {}
+[13.318104] (-) TimerEvent: {}
+[13.418850] (-) TimerEvent: {}
+[13.519825] (-) TimerEvent: {}
+[13.620901] (-) TimerEvent: {}
+[13.721736] (-) TimerEvent: {}
+[13.822544] (-) TimerEvent: {}
+[13.923369] (-) TimerEvent: {}
+[14.024243] (-) TimerEvent: {}
+[14.125034] (-) TimerEvent: {}
+[14.225971] (-) TimerEvent: {}
+[14.326731] (-) TimerEvent: {}
+[14.427535] (-) TimerEvent: {}
+[14.528284] (-) TimerEvent: {}
+[14.629182] (-) TimerEvent: {}
+[14.729914] (-) TimerEvent: {}
+[14.830693] (-) TimerEvent: {}
+[14.931479] (-) TimerEvent: {}
+[15.032289] (-) TimerEvent: {}
+[15.133197] (-) TimerEvent: {}
+[15.233994] (-) TimerEvent: {}
+[15.334914] (-) TimerEvent: {}
+[15.435727] (-) TimerEvent: {}
+[15.536622] (-) TimerEvent: {}
+[15.637497] (-) TimerEvent: {}
+[15.738287] (-) TimerEvent: {}
+[15.839138] (-) TimerEvent: {}
+[15.919257] (robotiq_gripper) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:10 (find_package):\n'}
+[15.920115] (robotiq_gripper) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[15.920260] (robotiq_gripper) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[15.920412] (robotiq_gripper) StderrLine: {'line': b'  CMake did not find one.\n'}
+[15.920510] (robotiq_gripper) StderrLine: {'line': b'\n'}
+[15.920602] (robotiq_gripper) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[15.920694] (robotiq_gripper) StderrLine: {'line': b'  of the following names:\n'}
+[15.920783] (robotiq_gripper) StderrLine: {'line': b'\n'}
+[15.920873] (robotiq_gripper) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[15.921014] (robotiq_gripper) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[15.921123] (robotiq_gripper) StderrLine: {'line': b'\n'}
+[15.921213] (robotiq_gripper) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[15.921304] (robotiq_gripper) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[15.921417] (robotiq_gripper) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[15.921506] (robotiq_gripper) StderrLine: {'line': b'  installed.\n'}
+[15.921594] (robotiq_gripper) StderrLine: {'line': b'\n'}
+[15.921683] (robotiq_gripper) StderrLine: {'line': b'\x1b[0m\n'}
+[15.921774] (robotiq_gripper) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[15.921881] (robotiq_gripper) StdoutLine: {'line': b'See also "/home/taj71/ur5_ws/build/robotiq_gripper/CMakeFiles/CMakeOutput.log".\n'}
+[15.925891] (robotiq_gripper) CommandEnded: {'returncode': 1}
+[15.939357] (-) TimerEvent: {}
+[15.953057] (robotiq_gripper) JobEnded: {'identifier': 'robotiq_gripper', 'rc': 1}
+[15.965264] (-) EventReactorShutdown: {}

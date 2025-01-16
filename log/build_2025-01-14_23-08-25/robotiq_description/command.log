@@ -1,0 +1,2 @@
+Invoking command in '/home/taj71/ur5_ws/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taj71/ur5_ws/install/ur5_robot_py:/opt/ros/iron /usr/bin/cmake --build /home/taj71/ur5_ws/build/robotiq_description -- -j8 -l8
+Invoked command in '/home/taj71/ur5_ws/build/robotiq_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taj71/ur5_ws/install/ur5_robot_py:/opt/ros/iron /usr/bin/cmake --build /home/taj71/ur5_ws/build/robotiq_description -- -j8 -l8

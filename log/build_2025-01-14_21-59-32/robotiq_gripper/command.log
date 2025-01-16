@@ -1,0 +1,2 @@
+Invoking command in '/home/taj71/ur5_ws/build/robotiq_gripper': /usr/bin/cmake /home/taj71/ur5_ws/src/robotiq_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/taj71/ur5_ws/install/robotiq_gripper
+Invoked command in '/home/taj71/ur5_ws/build/robotiq_gripper' returned '1': /usr/bin/cmake /home/taj71/ur5_ws/src/robotiq_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/taj71/ur5_ws/install/robotiq_gripper

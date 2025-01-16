@@ -1,0 +1,4 @@
+Invoking command in '/home/taj71/ur5_ws/build/robotiq_gripper': CMAKE_PREFIX_PATH=/home/taj71/ur5_ws/install/ur5_robot_py:/opt/ros/iron:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/taj71/ur5_ws/build/robotiq_gripper -- -j8 -l8
+Invoked command in '/home/taj71/ur5_ws/build/robotiq_gripper' returned '0': CMAKE_PREFIX_PATH=/home/taj71/ur5_ws/install/ur5_robot_py:/opt/ros/iron:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/taj71/ur5_ws/build/robotiq_gripper -- -j8 -l8
+Invoking command in '/home/taj71/ur5_ws/build/robotiq_gripper': CMAKE_PREFIX_PATH=/home/taj71/ur5_ws/install/ur5_robot_py:/opt/ros/iron:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/taj71/ur5_ws/build/robotiq_gripper
+Invoked command in '/home/taj71/ur5_ws/build/robotiq_gripper' returned '0': CMAKE_PREFIX_PATH=/home/taj71/ur5_ws/install/ur5_robot_py:/opt/ros/iron:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/taj71/ur5_ws/build/robotiq_gripper

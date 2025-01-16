@@ -1,0 +1,46 @@
+-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found ament_cmake_pytest: 2.0.7 (/opt/ros/iron/share/ament_cmake_pytest/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/taj71/ur5_ws/build/robotiq_description
+-- Install configuration: ""
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/config
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/config/config.rviz
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/launch
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/launch/display.launch.py
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/meshes
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/meshes/collision
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/meshes/collision/robotiq_85_inner_knuckle_link.stl
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/meshes/collision/robotiq_85_base_link.stl
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/meshes/collision/robotiq_85_finger_tip_link.stl
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/meshes/collision/robotiq_85_finger_link.stl
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/meshes/collision/robotiq_85_knuckle_link.stl
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/meshes/visual
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/meshes/visual/robotiq_85_inner_knuckle_link.dae
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/meshes/visual/robotiq_85_knuckle_link.dae
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/meshes/visual/robotiq_85_finger_link.dae
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/meshes/visual/robotiq_85_finger_tip_link.dae
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/meshes/visual/robotiq_85_base_link.dae
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/rviz
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/rviz/display.rviz
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/urdf
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/urdf/robotiq_85_gripper2.xacro
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/urdf/robotiq_85_gripper.xacro
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/urdf/robotiq_85_gripper.transmission.xacro
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/urdf/robotiq_85_gripper.urdf.xacro
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/urdf/robotiq_85_gripper_sim_base.urdf.xacro
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/ament_index/resource_index/package_run_dependencies/robotiq_description
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/ament_index/resource_index/parent_prefix_path/robotiq_description
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/environment/ament_prefix_path.sh
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/environment/ament_prefix_path.dsv
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/environment/path.sh
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/environment/path.dsv
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/local_setup.bash
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/local_setup.sh
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/local_setup.zsh
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/local_setup.dsv
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/package.dsv
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/ament_index/resource_index/packages/robotiq_description
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/cmake/robotiq_descriptionConfig.cmake
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/cmake/robotiq_descriptionConfig-version.cmake
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/package.xml

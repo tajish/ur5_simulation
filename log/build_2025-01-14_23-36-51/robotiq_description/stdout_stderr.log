@@ -1,0 +1,38 @@
+-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/taj71/ur5_ws/build/robotiq_description
+-- Install configuration: ""
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/urdf
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/urdf/robotiq_85_gripper2.xacro
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/urdf/robotiq_85_gripper.xacro
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/urdf/robotiq_85_gripper.transmission.xacro
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/urdf/robotiq_85_gripper.urdf.xacro
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/urdf/robotiq_85_gripper_sim_base.urdf.xacro
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/meshes
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/meshes/collision
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/meshes/collision/robotiq_85_inner_knuckle_link.stl
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/meshes/collision/robotiq_85_base_link.stl
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/meshes/collision/robotiq_85_finger_tip_link.stl
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/meshes/collision/robotiq_85_finger_link.stl
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/meshes/collision/robotiq_85_knuckle_link.stl
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/meshes/visual
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/meshes/visual/robotiq_85_inner_knuckle_link.dae
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/meshes/visual/robotiq_85_knuckle_link.dae
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/meshes/visual/robotiq_85_finger_link.dae
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/meshes/visual/robotiq_85_finger_tip_link.dae
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/meshes/visual/robotiq_85_base_link.dae
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/launch
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find "/home/taj71/ur5_ws/src/robotiq_description/rviz":
+  No such file or directory.
+
+[0m
+-- Installing: /home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/launch/display.launch.py

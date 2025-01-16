@@ -1,0 +1,33 @@
+[0.088s] Invoking command in '/home/taj71/ur5_ws/build/robotiq_gripper': /usr/bin/cmake /home/taj71/ur5_ws/src/robotiq_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/taj71/ur5_ws/install/robotiq_gripper
+[1.331s] -- The C compiler identification is GNU 11.4.0
+[4.920s] -- The CXX compiler identification is GNU 11.4.0
+[7.065s] -- Detecting C compiler ABI info
+[7.889s] -- Detecting C compiler ABI info - done
+[7.907s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.909s] -- Detecting C compile features
+[7.912s] -- Detecting C compile features - done
+[7.922s] -- Detecting CXX compiler ABI info
+[8.827s] -- Detecting CXX compiler ABI info - done
+[8.843s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.844s] -- Detecting CXX compile features
+[8.846s] -- Detecting CXX compile features - done
+[15.914s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[15.915s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[15.915s]   asked CMake to find a package configuration file provided by "catkin", but
+[15.915s]   CMake did not find one.
+[15.915s] 
+[15.915s]   Could not find a package configuration file provided by "catkin" with any
+[15.915s]   of the following names:
+[15.915s] 
+[15.915s]     catkinConfig.cmake
+[15.916s]     catkin-config.cmake
+[15.916s] 
+[15.916s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[15.916s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[15.916s]   provides a separate development package or SDK, be sure it has been
+[15.916s]   installed.
+[15.916s] 
+[15.916s] [0m
+[15.916s] -- Configuring incomplete, errors occurred!
+[15.916s] See also "/home/taj71/ur5_ws/build/robotiq_gripper/CMakeFiles/CMakeOutput.log".
+[15.921s] Invoked command in '/home/taj71/ur5_ws/build/robotiq_gripper' returned '1': /usr/bin/cmake /home/taj71/ur5_ws/src/robotiq_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/taj71/ur5_ws/install/robotiq_gripper

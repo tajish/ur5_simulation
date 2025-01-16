@@ -1,0 +1,76 @@
+[1.589s] DEBUG:colcon:Command line arguments: ['/home/taj71/.local/bin/colcon', 'list', '-p', '--base-paths', '/home/taj71/ur5_ws']
+[1.590s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/taj71/ur5_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f543b684b50>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f543b647af0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f543b647af0>>, mixin_verb=('list',))
+[2.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.333s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/taj71/ur5_ws'
+[2.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws) by extensions ['ignore', 'ignore_ament_install']
+[2.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws) by extension 'ignore'
+[2.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws) by extension 'ignore_ament_install'
+[2.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws) by extensions ['colcon_pkg']
+[2.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws) by extension 'colcon_pkg'
+[2.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws) by extensions ['colcon_meta']
+[2.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws) by extension 'colcon_meta'
+[2.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws) by extensions ['ros']
+[2.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws) by extension 'ros'
+[2.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws) by extensions ['cmake', 'python']
+[2.385s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws) by extension 'cmake'
+[2.385s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws) by extension 'python'
+[2.385s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws) by extensions ['python_setup_py']
+[2.385s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws) by extension 'python_setup_py'
+[2.385s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[2.386s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/build) by extension 'ignore'
+[2.386s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/build) ignored
+[2.386s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[2.387s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/install) by extension 'ignore'
+[2.387s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/install) ignored
+[2.387s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[2.388s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/log) by extension 'ignore'
+[2.388s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/log) ignored
+[2.388s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[2.388s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src) by extension 'ignore'
+[2.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src) by extension 'ignore_ament_install'
+[2.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src) by extensions ['colcon_pkg']
+[2.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src) by extension 'colcon_pkg'
+[2.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src) by extensions ['colcon_meta']
+[2.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src) by extension 'colcon_meta'
+[2.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src) by extensions ['ros']
+[2.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src) by extension 'ros'
+[2.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src) by extensions ['cmake', 'python']
+[2.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src) by extension 'cmake'
+[2.391s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src) by extension 'python'
+[2.391s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src) by extensions ['python_setup_py']
+[2.391s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src) by extension 'python_setup_py'
+[2.391s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src/robotiq_description) by extensions ['ignore', 'ignore_ament_install']
+[2.391s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src/robotiq_description) by extension 'ignore'
+[2.391s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src/robotiq_description) by extension 'ignore_ament_install'
+[2.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src/robotiq_description) by extensions ['colcon_pkg']
+[2.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src/robotiq_description) by extension 'colcon_pkg'
+[2.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src/robotiq_description) by extensions ['colcon_meta']
+[2.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src/robotiq_description) by extension 'colcon_meta'
+[2.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src/robotiq_description) by extensions ['ros']
+[2.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src/robotiq_description) by extension 'ros'
+[2.398s] DEBUG:colcon.colcon_core.package_identification:Package '/home/taj71/ur5_ws/src/robotiq_description' with type 'ros.ament_cmake' and name 'robotiq_description'
+[2.399s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src/ur5_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[2.399s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src/ur5_robot_description) by extension 'ignore'
+[2.399s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src/ur5_robot_description) by extension 'ignore_ament_install'
+[2.399s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src/ur5_robot_description) by extensions ['colcon_pkg']
+[2.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src/ur5_robot_description) by extension 'colcon_pkg'
+[2.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src/ur5_robot_description) by extensions ['colcon_meta']
+[2.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src/ur5_robot_description) by extension 'colcon_meta'
+[2.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src/ur5_robot_description) by extensions ['ros']
+[2.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src/ur5_robot_description) by extension 'ros'
+[2.402s] DEBUG:colcon.colcon_core.package_identification:Package '/home/taj71/ur5_ws/src/ur5_robot_description' with type 'ros.ament_cmake' and name 'ur5_robot_description'
+[2.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src/ur5_robot_py) by extensions ['ignore', 'ignore_ament_install']
+[2.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src/ur5_robot_py) by extension 'ignore'
+[2.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src/ur5_robot_py) by extension 'ignore_ament_install'
+[2.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src/ur5_robot_py) by extensions ['colcon_pkg']
+[2.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src/ur5_robot_py) by extension 'colcon_pkg'
+[2.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src/ur5_robot_py) by extensions ['colcon_meta']
+[2.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src/ur5_robot_py) by extension 'colcon_meta'
+[2.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src/ur5_robot_py) by extensions ['ros']
+[2.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/taj71/ur5_ws/src/ur5_robot_py) by extension 'ros'
+[2.405s] DEBUG:colcon.colcon_core.package_identification:Package '/home/taj71/ur5_ws/src/ur5_robot_py' with type 'ros.ament_python' and name 'ur5_robot_py'
+[2.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
