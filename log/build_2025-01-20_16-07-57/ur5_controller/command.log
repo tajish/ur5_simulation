@@ -1,0 +1,4 @@
+Invoking command in '/home/taj71/ur5_ws/build/ur5_controller': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/taj71/ur5_ws/build/ur5_controller -- -j8 -l8
+Invoked command in '/home/taj71/ur5_ws/build/ur5_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/taj71/ur5_ws/build/ur5_controller -- -j8 -l8
+Invoking command in '/home/taj71/ur5_ws/build/ur5_controller': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/taj71/ur5_ws/build/ur5_controller
+Invoked command in '/home/taj71/ur5_ws/build/ur5_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/taj71/ur5_ws/build/ur5_controller

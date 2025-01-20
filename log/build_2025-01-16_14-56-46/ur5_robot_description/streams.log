@@ -1,0 +1,52 @@
+[0.051s] Invoking command in '/home/taj71/ur5_ws/build/ur5_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taj71/ur5_ws/install/ur5_robot_py:/opt/ros/iron /usr/bin/cmake --build /home/taj71/ur5_ws/build/ur5_robot_description -- -j8 -l8
+[0.078s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.340s] -- Found ament_cmake_pytest: 2.0.7 (/opt/ros/iron/share/ament_cmake_pytest/cmake)
+[0.472s] -- Configuring done
+[0.479s] -- Generating done
+[0.482s] -- Build files have been written to: /home/taj71/ur5_ws/build/ur5_robot_description
+[0.664s] Invoked command in '/home/taj71/ur5_ws/build/ur5_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taj71/ur5_ws/install/ur5_robot_py:/opt/ros/iron /usr/bin/cmake --build /home/taj71/ur5_ws/build/ur5_robot_description -- -j8 -l8
+[0.671s] Invoking command in '/home/taj71/ur5_ws/build/ur5_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taj71/ur5_ws/install/ur5_robot_py:/opt/ros/iron /usr/bin/cmake --install /home/taj71/ur5_ws/build/ur5_robot_description
+[0.702s] -- Install configuration: ""
+[0.702s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/launch
+[0.702s] -- Installing: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/launch/gazebo.launch.py
+[0.703s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/launch/gz.launch.py
+[0.703s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/launch/rviz_ur5_gripper.launch.py
+[0.704s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/meshes
+[0.704s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/meshes/wrist3.dae
+[0.706s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/meshes/shoulder.dae
+[0.710s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/meshes/collision
+[0.713s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/meshes/collision/base.stl
+[0.715s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/meshes/collision/upperarm.stl
+[0.716s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/meshes/collision/wrist1.stl
+[0.717s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/meshes/collision/wrist3.stl
+[0.720s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/meshes/collision/forearm.stl
+[0.722s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/meshes/collision/wrist2.stl
+[0.723s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/meshes/collision/shoulder.stl
+[0.725s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/meshes/base.dae
+[0.726s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/meshes/wrist1.dae
+[0.729s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/meshes/upperarm.dae
+[0.731s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/meshes/forearm.dae
+[0.732s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/meshes/wrist2.dae
+[0.733s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/rviz
+[0.734s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/rviz/display.rviz
+[0.734s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/rviz/display_new.rviz
+[0.736s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/urdf
+[0.738s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/urdf/ur5_gripper_main.xacro
+[0.739s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/urdf/eef.xacro
+[0.739s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/urdf/ur5_gripper.xacro
+[0.740s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ament_index/resource_index/package_run_dependencies/ur5_robot_description
+[0.740s] -- Installing: /home/taj71/ur5_ws/install/ur5_robot_description/share/ament_index/resource_index/parent_prefix_path/ur5_robot_description
+[0.741s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/environment/ament_prefix_path.sh
+[0.741s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/environment/ament_prefix_path.dsv
+[0.742s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/environment/path.sh
+[0.742s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/environment/path.dsv
+[0.743s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/local_setup.bash
+[0.744s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/local_setup.sh
+[0.744s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/local_setup.zsh
+[0.745s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/local_setup.dsv
+[0.746s] -- Installing: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/package.dsv
+[0.748s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ament_index/resource_index/packages/ur5_robot_description
+[0.750s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/cmake/ur5_robot_descriptionConfig.cmake
+[0.751s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/cmake/ur5_robot_descriptionConfig-version.cmake
+[0.751s] -- Installing: /home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/package.xml
+[0.782s] Invoked command in '/home/taj71/ur5_ws/build/ur5_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taj71/ur5_ws/install/ur5_robot_py:/opt/ros/iron /usr/bin/cmake --install /home/taj71/ur5_ws/build/ur5_robot_description

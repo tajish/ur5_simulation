@@ -15,11 +15,18 @@
   <exec_depend>joint_state_publisher_gui</exec_depend>
   <exec_depend>rviz2</exec_depend>
   <exec_depend>ros2launch</exec_depend>
+  <exec_depend>ros_gz_sim</exec_depend>
+  <exec_depend>ros_gz_bridge</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend condition="$ROS_DISTRO >= iron">gz_ros2_control</exec_depend>
+  <exec_depend condition="$ROS_DISTRO == humble">ign_ros2_control</exec_depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 
   <export>
     <build_type>ament_cmake</build_type>
+    <gazebo_ros gazebo_model_path = "/home/taj71/ur5_ws/install/ur5_robot_description/share/"/>
+    <gazebo_ros gazebo_model_path = "/home/taj71/ur5_ws/install/robotiq_description/share/"/>
   </export>
 </package>

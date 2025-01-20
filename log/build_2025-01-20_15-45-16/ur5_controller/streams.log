@@ -1,0 +1,42 @@
+[0.061s] Invoking command in '/home/taj71/ur5_ws/build/ur5_controller': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/taj71/ur5_ws/src/ur5_controller -DCMAKE_INSTALL_PREFIX=/home/taj71/ur5_ws/install/ur5_controller
+[0.836s] -- The C compiler identification is GNU 11.4.0
+[3.695s] -- The CXX compiler identification is GNU 11.4.0
+[5.503s] -- Detecting C compiler ABI info
+[6.156s] -- Detecting C compiler ABI info - done
+[6.171s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.172s] -- Detecting C compile features
+[6.172s] -- Detecting C compile features - done
+[6.177s] -- Detecting CXX compiler ABI info
+[7.245s] -- Detecting CXX compiler ABI info - done
+[7.260s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.261s] -- Detecting CXX compile features
+[7.262s] -- Detecting CXX compile features - done
+[7.266s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[7.580s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[7.736s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[7.899s] -- Added test 'lint_cmake' to check CMake code style
+[7.902s] -- Added test 'xmllint' to check XML markup files
+[7.907s] -- Configuring done
+[7.914s] -- Generating done
+[7.917s] -- Build files have been written to: /home/taj71/ur5_ws/build/ur5_controller
+[7.928s] Invoked command in '/home/taj71/ur5_ws/build/ur5_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/taj71/ur5_ws/src/ur5_controller -DCMAKE_INSTALL_PREFIX=/home/taj71/ur5_ws/install/ur5_controller
+[7.931s] Invoking command in '/home/taj71/ur5_ws/build/ur5_controller': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/taj71/ur5_ws/build/ur5_controller -- -j8 -l8
+[7.985s] Invoked command in '/home/taj71/ur5_ws/build/ur5_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/taj71/ur5_ws/build/ur5_controller -- -j8 -l8
+[7.989s] Invoking command in '/home/taj71/ur5_ws/build/ur5_controller': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/taj71/ur5_ws/build/ur5_controller
+[7.997s] -- Install configuration: ""
+[7.998s] -- Installing: /home/taj71/ur5_ws/install/ur5_controller/share/ament_index/resource_index/package_run_dependencies/ur5_controller
+[7.999s] -- Installing: /home/taj71/ur5_ws/install/ur5_controller/share/ament_index/resource_index/parent_prefix_path/ur5_controller
+[8.000s] -- Installing: /home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/environment/ament_prefix_path.sh
+[8.001s] -- Installing: /home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/environment/ament_prefix_path.dsv
+[8.001s] -- Installing: /home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/environment/path.sh
+[8.002s] -- Installing: /home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/environment/path.dsv
+[8.002s] -- Installing: /home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/local_setup.bash
+[8.003s] -- Installing: /home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/local_setup.sh
+[8.003s] -- Installing: /home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/local_setup.zsh
+[8.003s] -- Installing: /home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/local_setup.dsv
+[8.004s] -- Installing: /home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/package.dsv
+[8.004s] -- Installing: /home/taj71/ur5_ws/install/ur5_controller/share/ament_index/resource_index/packages/ur5_controller
+[8.005s] -- Installing: /home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/cmake/ur5_controllerConfig.cmake
+[8.006s] -- Installing: /home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/cmake/ur5_controllerConfig-version.cmake
+[8.006s] -- Installing: /home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/package.xml
+[8.011s] Invoked command in '/home/taj71/ur5_ws/build/ur5_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/taj71/ur5_ws/build/ur5_controller

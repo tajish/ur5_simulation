@@ -1,0 +1,33 @@
+[2.881s] Invoking command in '/home/taj71/ur5_ws/src/ur5_robot_py': PYTHONPATH=/home/taj71/ur5_ws/src/build/ur5_robot_py/prefix_override:/home/taj71/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/taj71/ur5_ws/src/install/ur5_robot_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ur5_robot_py build --build-base /home/taj71/ur5_ws/src/build/ur5_robot_py/build install --record /home/taj71/ur5_ws/src/build/ur5_robot_py/install.log --single-version-externally-managed install_data
+[3.791s] running egg_info
+[3.794s] creating ../build/ur5_robot_py/ur5_robot_py.egg-info
+[3.795s] writing ../build/ur5_robot_py/ur5_robot_py.egg-info/PKG-INFO
+[3.796s] writing dependency_links to ../build/ur5_robot_py/ur5_robot_py.egg-info/dependency_links.txt
+[3.797s] writing entry points to ../build/ur5_robot_py/ur5_robot_py.egg-info/entry_points.txt
+[3.798s] writing requirements to ../build/ur5_robot_py/ur5_robot_py.egg-info/requires.txt
+[3.798s] writing top-level names to ../build/ur5_robot_py/ur5_robot_py.egg-info/top_level.txt
+[3.798s] writing manifest file '../build/ur5_robot_py/ur5_robot_py.egg-info/SOURCES.txt'
+[3.806s] reading manifest file '../build/ur5_robot_py/ur5_robot_py.egg-info/SOURCES.txt'
+[3.808s] writing manifest file '../build/ur5_robot_py/ur5_robot_py.egg-info/SOURCES.txt'
+[3.809s] running build
+[3.810s] running build_py
+[3.810s] creating /home/taj71/ur5_ws/src/build/ur5_robot_py/build
+[3.811s] creating /home/taj71/ur5_ws/src/build/ur5_robot_py/build/lib
+[3.813s] creating /home/taj71/ur5_ws/src/build/ur5_robot_py/build/lib/ur5_robot_py
+[3.814s] copying ur5_robot_py/__init__.py -> /home/taj71/ur5_ws/src/build/ur5_robot_py/build/lib/ur5_robot_py
+[3.815s] running install
+[3.817s] running install_lib
+[3.819s] creating /home/taj71/ur5_ws/src/install/ur5_robot_py/lib/python3.10/site-packages/ur5_robot_py
+[3.820s] copying /home/taj71/ur5_ws/src/build/ur5_robot_py/build/lib/ur5_robot_py/__init__.py -> /home/taj71/ur5_ws/src/install/ur5_robot_py/lib/python3.10/site-packages/ur5_robot_py
+[3.822s] byte-compiling /home/taj71/ur5_ws/src/install/ur5_robot_py/lib/python3.10/site-packages/ur5_robot_py/__init__.py to __init__.cpython-310.pyc
+[3.823s] running install_data
+[3.824s] creating /home/taj71/ur5_ws/src/install/ur5_robot_py/share/ament_index
+[3.824s] creating /home/taj71/ur5_ws/src/install/ur5_robot_py/share/ament_index/resource_index
+[3.825s] creating /home/taj71/ur5_ws/src/install/ur5_robot_py/share/ament_index/resource_index/packages
+[3.826s] copying resource/ur5_robot_py -> /home/taj71/ur5_ws/src/install/ur5_robot_py/share/ament_index/resource_index/packages
+[3.827s] copying package.xml -> /home/taj71/ur5_ws/src/install/ur5_robot_py/share/ur5_robot_py
+[3.827s] running install_egg_info
+[3.835s] Copying ../build/ur5_robot_py/ur5_robot_py.egg-info to /home/taj71/ur5_ws/src/install/ur5_robot_py/lib/python3.10/site-packages/ur5_robot_py-0.0.0-py3.10.egg-info
+[3.838s] running install_scripts
+[3.891s] writing list of installed files to '/home/taj71/ur5_ws/src/build/ur5_robot_py/install.log'
+[3.969s] Invoked command in '/home/taj71/ur5_ws/src/ur5_robot_py' returned '0': PYTHONPATH=/home/taj71/ur5_ws/src/build/ur5_robot_py/prefix_override:/home/taj71/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/taj71/ur5_ws/src/install/ur5_robot_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ur5_robot_py build --build-base /home/taj71/ur5_ws/src/build/ur5_robot_py/build install --record /home/taj71/ur5_ws/src/build/ur5_robot_py/install.log --single-version-externally-managed install_data

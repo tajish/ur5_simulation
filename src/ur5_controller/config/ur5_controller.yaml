@@ -1,0 +1,53 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 10
+
+    controller_names:
+      - scaled_joint_trajectory_controller
+      - arm_joint_trajectory_controller
+      - gripper_joint_trajectory_controller
+      - joint_state_broadcaster
+
+    scaled_joint_trajectory_controller:
+      action_ns: follow_joint_trajectory
+      type: FollowJointTrajectory
+      default: false
+      joints:
+        - shoulder_pan_joint
+        - shoulder_lift_joint
+        - elbow_joint
+        - wrist_1_joint
+        - wrist_2_joint
+        - wrist_3_joint
+
+    arm_joint_trajectory_controller:
+      action_ns: follow_joint_trajectory
+      type: FollowJointTrajectory
+      default: true
+      joints:
+        - shoulder_pan_joint
+        - shoulder_lift_joint
+        - elbow_joint
+        - wrist_1_joint
+        - wrist_2_joint
+        - wrist_3_joint
+      command_interfaces:
+        - position
+      state_interfaces:
+        - position
+
+    gripper_joint_trajectory_controller:
+      action_ns: follow_joint_trajectory
+      type: FollowJointTrajectory
+      default: true
+      joints:
+        - robotiq_85_left_knuckle_joint
+        - robotiq_85_left_inner_knuckle_joint
+        - robotiq_85_left_finger_tip_joint
+      command_interfaces:
+        - position
+      state_interfaces:
+        - position
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster

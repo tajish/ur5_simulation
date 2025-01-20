@@ -4,6 +4,12 @@
 
     <xacro:include filename="$(find ur5_robot_description)/urdf/eef.xacro"/>
 
+    <xacro:arg name="is_classic" default="true"/>
+
+    <xacro:include filename="$(find ur5_robot_description)/urdf/ur5_robot_gazebo.xacro"/>
+    <xacro:include filename="$(find ur5_robot_description)/urdf/ur5_ros2_control.xacro"/>
+
+
     <transmission name="shoulder_pan_trans">
         <type>transmission_interface/SimpleTransmission</type>
         <joint name="shoulder_pan_joint">
