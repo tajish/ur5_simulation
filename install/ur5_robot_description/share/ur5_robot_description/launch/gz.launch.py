@@ -14,6 +14,7 @@ from launch_ros.parameter_descriptions import ParameterValue
 def generate_launch_description():
     ur5_robot_description = get_package_share_directory("ur5_robot_description")
 
+    # Declare argument for robot model file
     model_arg = DeclareLaunchArgument(
         name="model",
         default_value=os.path.join(
@@ -22,25 +23,29 @@ def generate_launch_description():
         description="Absolute path to robot URDF file"
     )
 
-    ros_distro = os.environ["ROS_DISTRO"]
-    is_classic = "True" if ros_distro == "iron" else False
+     
 
+    # Set Gazebo environment variables
     gazebo_resource_path = SetEnvironmentVariable(
-        name="GAZEBO_MODEL_PATH",
+        name="GZ_SIM_RESOURCE_PATH",
         value=[
             str(Path(ur5_robot_description).parent.resolve())
         ]
     )
 
+    ros_distro = os.environ["ROS_DISTRO"] 
+    is_classic = "True" if ros_distro == "humble" else "False" 
+
+    # Process robot description using xacro
     robot_description = ParameterValue(
-        Command(["xacro ", LaunchConfiguration("model"),
-        " is_classic:=",
-        is_classic
+        Command([
+            "xacro ", LaunchConfiguration("model"),
+            " is_classic:=", is_classic
         ]),
         value_type=str
     )
 
-    # Robot State Publisher
+    # Robot State Publisher node
     robot_state_publisher_node = Node(
         package="robot_state_publisher",
         executable="robot_state_publisher",
@@ -50,31 +55,40 @@ def generate_launch_description():
         }]
     )
 
-    # Launch Gazebo Classic
+
     gazebo_classic = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([
-            os.path.join(
-                get_package_share_directory("gazebo_ros"), "launch", "gazebo.launch.py"
-            )
-        ]),
-        launch_arguments={"verbose": "true"}.items(),
+        PythonLaunchDescriptionSource([os.path.join(
+                    get_package_share_directory("ros_gz_sim"), "launch"), "/gz_sim.launch.py"]),
+                launch_arguments=[
+                    ("gz_args", [" -v 4 -r empty.sdf "]
+                    )
+                ]
+             )
+
+    
+    gz_spawn_entity = Node(
+        package="ros_gz_sim",
+        executable="create",
+        output="screen",
+        arguments=["-topic", "robot_description",
+                   "-name", "ur5_robot"],
     )
 
-    # Spawn the robot in Gazebo Classic
-    spawn_robot = Node(
-        package="gazebo_ros",
-        executable="spawn_entity.py",
+    gz_ros2_bridge = Node(
+        package="ros_gz_bridge",
+        executable="parameter_bridge",
         arguments=[
-            "-entity", "ur5_robot",
-            "-topic", "robot_description"
-        ],
-        output="screen"
+            "/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock",
+        ]
     )
 
+
+    # Return launch description
     return LaunchDescription([
         model_arg,
         gazebo_resource_path,
         robot_state_publisher_node,
         gazebo_classic,
-        spawn_robot
+        gz_spawn_entity,
+        gz_ros2_bridge
     ])

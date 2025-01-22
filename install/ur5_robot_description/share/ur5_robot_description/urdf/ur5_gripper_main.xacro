@@ -8,75 +8,15 @@
 
     <xacro:include filename="$(find ur5_robot_description)/urdf/ur5_robot_gazebo.xacro"/>
     <xacro:include filename="$(find ur5_robot_description)/urdf/ur5_ros2_control.xacro"/>
+    <xacro:include filename="$(find ur5_robot_description)/urdf/ur5_robot_transmission.xacro"/>
 
-
-    <transmission name="shoulder_pan_trans">
-        <type>transmission_interface/SimpleTransmission</type>
-        <joint name="shoulder_pan_joint">
-            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
-        </joint>
-        <actuator name="shoulder_pan_motor">
-            <mechanicalReduction>1</mechanicalReduction>
-            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
-        </actuator>
-    </transmission>
-    <transmission name="shoulder_lift_trans">
-        <type>transmission_interface/SimpleTransmission</type>
-        <joint name="shoulder_lift_joint">
-            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
-        </joint>
-        <actuator name="shoulder_lift_motor">
-            <mechanicalReduction>1</mechanicalReduction>
-            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
-        </actuator>
-    </transmission>
-    <transmission name="elbow_trans">
-        <type>transmission_interface/SimpleTransmission</type>
-        <joint name="elbow_joint">
-            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
-        </joint>
-        <actuator name="elbow_motor">
-            <mechanicalReduction>1</mechanicalReduction>
-            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
-        </actuator>
-    </transmission>
-    <transmission name="wrist_1_trans">
-        <type>transmission_interface/SimpleTransmission</type>
-        <joint name="wrist_1_joint">
-            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
-        </joint>
-        <actuator name="wrist_1_motor">
-            <mechanicalReduction>1</mechanicalReduction>
-            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
-        </actuator>
-    </transmission>
-    <transmission name="wrist_2_trans">
-        <type>transmission_interface/SimpleTransmission</type>
-        <joint name="wrist_2_joint">
-            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
-        </joint>
-        <actuator name="wrist_2_motor">
-            <mechanicalReduction>1</mechanicalReduction>
-            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
-        </actuator>
-    </transmission>
-    <transmission name="wrist_3_trans">
-        <type>transmission_interface/SimpleTransmission</type>
-        <joint name="wrist_3_joint">
-            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
-        </joint>
-        <actuator name="wrist_3_motor">
-            <mechanicalReduction>1</mechanicalReduction>
-            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
-        </actuator>
-    </transmission>
 
     <link name="base_link" />
     <link name="base_link_inertia">
         <visual>
             <origin rpy="0 0 3.141592653589793" xyz="0 0 0" />
             <geometry>
-                <mesh filename="package://ur5_robot_description/meshes/base.dae" />
+                <mesh filename="package://ur5_robot_description/meshes/visual/base.dae" />
             </geometry>
             <material name="LightGrey">
                 <color rgba="0.7 0.7 0.7 1.0" />
@@ -110,7 +50,7 @@
         <visual>
             <origin rpy="0 0 3.141592653589793" xyz="0 0 0" />
             <geometry>
-                <mesh filename="package://ur5_robot_description/meshes/shoulder.dae" />
+                <mesh filename="package://ur5_robot_description/meshes/visual/shoulder.dae" />
             </geometry>
             <material name="LightGrey">
                 <color rgba="0.7 0.7 0.7 1.0" />
@@ -132,7 +72,7 @@
         <visual>
             <origin rpy="1.5707963267948966 0 -1.5707963267948966" xyz="0 0 0.13585" />
             <geometry>
-                <mesh filename="package://ur5_robot_description/meshes/upperarm.dae" />
+                <mesh filename="package://ur5_robot_description/meshes/visual/upperarm.dae" />
             </geometry>
             <material name="LightGrey">
                 <color rgba="0.7 0.7 0.7 1.0" />
@@ -154,7 +94,7 @@
         <visual>
             <origin rpy="1.5707963267948966 0 -1.5707963267948966" xyz="0 0 0.0165" />
             <geometry>
-                <mesh filename="package://ur5_robot_description/meshes/forearm.dae" />
+                <mesh filename="package://ur5_robot_description/meshes/visual/forearm.dae" />
             </geometry>
             <material name="LightGrey">
                 <color rgba="0.7 0.7 0.7 1.0" />
@@ -176,7 +116,7 @@
         <visual>
             <origin rpy="1.5707963267948966 0 0" xyz="0 0 -0.093" />
             <geometry>
-                <mesh filename="package://ur5_robot_description/meshes/wrist1.dae" />
+                <mesh filename="package://ur5_robot_description/meshes/visual/wrist1.dae" />
             </geometry>
             <material name="LightGrey">
                 <color rgba="0.7 0.7 0.7 1.0" />
@@ -198,7 +138,7 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 -0.095" />
             <geometry>
-                <mesh filename="package://ur5_robot_description/meshes/wrist2.dae" />
+                <mesh filename="package://ur5_robot_description/meshes/visual/wrist2.dae" />
             </geometry>
             <material name="LightGrey">
                 <color rgba="0.7 0.7 0.7 1.0" />
@@ -220,7 +160,7 @@
         <visual>
             <origin rpy="1.5707963267948966 0 0" xyz="0 0 -0.0818" />
             <geometry>
-                <mesh filename="package://ur5_robot_description/meshes/wrist3.dae" />
+                <mesh filename="package://ur5_robot_description/meshes/visual/wrist3.dae" />
             </geometry>
             <material name="LightGrey">
                 <color rgba="0.7 0.7 0.7 1.0" />
@@ -311,9 +251,11 @@
         <parent link="flange" />
         <child link="tool0" />
     </joint>
+
     <gazebo>
-        <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+        <plugin filename="ign_ros2_control-system" name="ign_ros2_control::IgnitionROS2ControlPlugin"> 
             <robotNamespace>/ur5</robotNamespace>
         </plugin>
     </gazebo>
+    
 </robot>
