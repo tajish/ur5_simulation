@@ -1,0 +1,20 @@
+[4.089s] Invoking command in '/home/taj71/ur5_ws/src/ur5_robot_py': PYTHONPATH=/home/taj71/ur5_ws/build/ur5_robot_py/prefix_override:/home/taj71/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/taj71/ur5_ws/install/ur5_robot_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ur5_robot_py build --build-base /home/taj71/ur5_ws/build/ur5_robot_py/build install --record /home/taj71/ur5_ws/build/ur5_robot_py/install.log --single-version-externally-managed install_data
+[5.622s] running egg_info
+[5.626s] writing ../../build/ur5_robot_py/ur5_robot_py.egg-info/PKG-INFO
+[5.627s] writing dependency_links to ../../build/ur5_robot_py/ur5_robot_py.egg-info/dependency_links.txt
+[5.628s] writing entry points to ../../build/ur5_robot_py/ur5_robot_py.egg-info/entry_points.txt
+[5.629s] writing requirements to ../../build/ur5_robot_py/ur5_robot_py.egg-info/requires.txt
+[5.630s] writing top-level names to ../../build/ur5_robot_py/ur5_robot_py.egg-info/top_level.txt
+[5.639s] reading manifest file '../../build/ur5_robot_py/ur5_robot_py.egg-info/SOURCES.txt'
+[5.642s] writing manifest file '../../build/ur5_robot_py/ur5_robot_py.egg-info/SOURCES.txt'
+[5.643s] running build
+[5.644s] running build_py
+[5.645s] running install
+[5.646s] running install_lib
+[5.651s] running install_data
+[5.652s] running install_egg_info
+[5.662s] removing '/home/taj71/ur5_ws/install/ur5_robot_py/lib/python3.10/site-packages/ur5_robot_py-0.0.0-py3.10.egg-info' (and everything under it)
+[5.666s] Copying ../../build/ur5_robot_py/ur5_robot_py.egg-info to /home/taj71/ur5_ws/install/ur5_robot_py/lib/python3.10/site-packages/ur5_robot_py-0.0.0-py3.10.egg-info
+[5.669s] running install_scripts
+[5.756s] writing list of installed files to '/home/taj71/ur5_ws/build/ur5_robot_py/install.log'
+[5.859s] Invoked command in '/home/taj71/ur5_ws/src/ur5_robot_py' returned '0': PYTHONPATH=/home/taj71/ur5_ws/build/ur5_robot_py/prefix_override:/home/taj71/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/taj71/ur5_ws/install/ur5_robot_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ur5_robot_py build --build-base /home/taj71/ur5_ws/build/ur5_robot_py/build install --record /home/taj71/ur5_ws/build/ur5_robot_py/install.log --single-version-externally-managed install_data

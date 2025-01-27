@@ -61,31 +61,19 @@
                     <mesh filename="package://robotiq_description/meshes/collision/robotiq_85_knuckle_link.stl"/>
                 </geometry>
             </collision>
-            <!--
             <inertial>
-                <mass> 1.0 </mass>
-                <origin xyz="0.0 0.0 0.0" />
-                <inertia ixx = "0.000009" ixy = "-0.000001" ixz = "0.000000"
-                         iyx = "-0.000001" iyy = "0.000001" iyz = "0.000000"
-                         izx = "0.000000" izy = "0.000000" izz = "0.000010" />
-            </inertial>
-            -->
-            <inertial>
-                    <!-- Volume:  6.8377110000e-06 -->
-                    <mass> 1.0 </mass>
-
-                    <!-- Center of mass:  9.2561000000e-04  0.0000000000e+00  1.7947540000e-02 -->
-                    <pose>  9.2561000000e-04  0.0000000000e+00  1.7947540000e-02 0 0 0 </pose>
-
-                    <!-- Inertia matrix -->
-                    <inertia>
-                        <ixx>  1.8679464517e-04 </ixx>
-                        <ixy> -1.4624777210e-11 </ixy>
-                        <ixz> -1.1207288521e-05 </ixz>
-                        <iyy>  2.0248142982e-04 </iyy>
-                        <iyz> -7.3123886049e-11 </iyz>
-                        <izz>  3.6687365114e-05 </izz>
-                    </inertia>
+                <origin
+                        xyz="0.0178331863169983 3.68915177224286E-11 0.0021442477325704"
+                        rpy="0 0 0" />
+                <mass
+                        value="0.00684838849434396" />
+                <inertia
+                        ixx="2.66832029033166E-07"
+                        ixy="1.66142314639824E-15"
+                        ixz="1.45945633322873E-07"
+                        iyy="1.3889233257419E-06"
+                        iyz="2.82951161241588E-15"
+                        izz="1.26603336914415E-06" />
             </inertial>
         </link> 
 
@@ -100,31 +88,19 @@
                     <mesh filename="package://robotiq_description/meshes/collision/robotiq_85_knuckle_link.stl"/>
                 </geometry>
             </collision>
-            <!-- 
             <inertial>
-                <mass value="0.018491" />
-                <origin xyz="0.0 0.0 0.0" />
-                <inertia ixx = "0.000009" ixy = "-0.000001" ixz = "0.000000"
-                         iyx = "-0.000001" iyy = "0.000001" iyz = "0.000000"
-                         izx = "0.000000" izy = "0.000000" izz = "0.000010" />
-            </inertial>
-            -->
-            <inertial>
-                    <!-- Volume:  6.8377110000e-06 -->
-                    <mass> 1.0 </mass>
-
-                    <!-- Center of mass:  9.2561000000e-04  0.0000000000e+00  1.7947540000e-02 -->
-                    <pose>  9.2561000000e-04  0.0000000000e+00  1.7947540000e-02 0 0 0 </pose>
-
-                    <!-- Inertia matrix -->
-                    <inertia>
-                        <ixx>  1.8679464517e-04 </ixx>
-                        <ixy> -1.4624777210e-11 </ixy>
-                        <ixz> -1.1207288521e-05 </ixz>
-                        <iyy>  2.0248142982e-04 </iyy>
-                        <iyz> -7.3123886049e-11 </iyz>
-                        <izz>  3.6687365114e-05 </izz>
-                    </inertia>
+                <origin
+                    xyz="0.0168606186773776 3.93808471820465E-10 0.0226699950793434"
+                    rpy="0 0 0" />
+                <mass
+                    value="0.0110930853895903" />
+                <inertia
+                    ixx="4.27134775939882E-06"
+                    ixy="-8.53568456728898E-15"
+                    ixz="1.77774229944246E-06"
+                    iyy="3.96548790524392E-06"
+                    iyz="-8.45108024914164E-15"
+                    izz="3.20325997634666E-06" />
             </inertial>
         </link>
 

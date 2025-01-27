@@ -1,5 +1,6 @@
 /home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/config/ur5_controller.yaml
 /home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/config/new.yaml
+/home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/launch/controller.launch.py
 /home/taj71/ur5_ws/install/ur5_controller/share/ament_index/resource_index/package_run_dependencies/ur5_controller
 /home/taj71/ur5_ws/install/ur5_controller/share/ament_index/resource_index/parent_prefix_path/ur5_controller
 /home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/environment/ament_prefix_path.sh

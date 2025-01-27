@@ -1,0 +1,324 @@
+[0.481s] DEBUG:colcon:Command line arguments: ['/home/taj71/.local/bin/colcon', 'build']
+[0.482s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f1d933e8fd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1d934f5f60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1d934f5f60>>, mixin_verb=('build',))
+[0.770s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.770s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.770s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.770s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.770s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.770s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.770s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/taj71/ur5_ws'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extensions ['ignore', 'ignore_ament_install']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extension 'ignore'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extension 'ignore_ament_install'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extensions ['colcon_pkg']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extension 'colcon_pkg'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extensions ['colcon_meta']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extension 'colcon_meta'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extensions ['ros']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extension 'ros'
+[0.813s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotiq_description' with type 'ros.ament_cmake' and name 'robotiq_description'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_controller) by extension 'ignore'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_controller) by extension 'ignore_ament_install'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_controller) by extensions ['colcon_pkg']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_controller) by extension 'colcon_pkg'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_controller) by extensions ['colcon_meta']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_controller) by extension 'colcon_meta'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_controller) by extensions ['ros']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_controller) by extension 'ros'
+[0.816s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur5_controller' with type 'ros.ament_cmake' and name 'ur5_controller'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_robot_description) by extension 'ignore'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_robot_description) by extension 'ignore_ament_install'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_robot_description) by extensions ['colcon_pkg']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_robot_description) by extension 'colcon_pkg'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_robot_description) by extensions ['colcon_meta']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_robot_description) by extension 'colcon_meta'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_robot_description) by extensions ['ros']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_robot_description) by extension 'ros'
+[0.825s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur5_robot_description' with type 'ros.ament_cmake' and name 'ur5_robot_description'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_robot_py) by extensions ['ignore', 'ignore_ament_install']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_robot_py) by extension 'ignore'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_robot_py) by extension 'ignore_ament_install'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_robot_py) by extensions ['colcon_pkg']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_robot_py) by extension 'colcon_pkg'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_robot_py) by extensions ['colcon_meta']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_robot_py) by extension 'colcon_meta'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_robot_py) by extensions ['ros']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur5_robot_py) by extension 'ros'
+[0.828s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur5_robot_py' with type 'ros.ament_python' and name 'ur5_robot_py'
+[0.828s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.828s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.828s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.828s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.828s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.861s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.861s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.865s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 412 installed packages in /opt/ros/iron
+[0.871s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 411 installed packages in /opt/ros/humble
+[0.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.053s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'cmake_args' from command line to 'None'
+[1.053s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'cmake_target' from command line to 'None'
+[1.053s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.053s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.053s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.053s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.054s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.054s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.054s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.054s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/taj71/ur5_ws/build/robotiq_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/taj71/ur5_ws/install/robotiq_description', 'merge_install': False, 'path': '/home/taj71/ur5_ws/src/robotiq_description', 'symlink_install': False, 'test_result_base': None}
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'ur5_controller' build argument 'cmake_args' from command line to 'None'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'ur5_controller' build argument 'cmake_target' from command line to 'None'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'ur5_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'ur5_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'ur5_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'ur5_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'ur5_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'ur5_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'ur5_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.055s] DEBUG:colcon.colcon_core.verb:Building package 'ur5_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/taj71/ur5_ws/build/ur5_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/taj71/ur5_ws/install/ur5_controller', 'merge_install': False, 'path': '/home/taj71/ur5_ws/src/ur5_controller', 'symlink_install': False, 'test_result_base': None}
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'ur5_robot_description' build argument 'cmake_args' from command line to 'None'
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'ur5_robot_description' build argument 'cmake_target' from command line to 'None'
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'ur5_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'ur5_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'ur5_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'ur5_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'ur5_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'ur5_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'ur5_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.056s] DEBUG:colcon.colcon_core.verb:Building package 'ur5_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/taj71/ur5_ws/build/ur5_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/taj71/ur5_ws/install/ur5_robot_description', 'merge_install': False, 'path': '/home/taj71/ur5_ws/src/ur5_robot_description', 'symlink_install': False, 'test_result_base': None}
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'ur5_robot_py' build argument 'cmake_args' from command line to 'None'
+[1.057s] Level 5:colcon.colcon_core.verb:set package 'ur5_robot_py' build argument 'cmake_target' from command line to 'None'
+[1.057s] Level 5:colcon.colcon_core.verb:set package 'ur5_robot_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.057s] Level 5:colcon.colcon_core.verb:set package 'ur5_robot_py' build argument 'cmake_clean_cache' from command line to 'False'
+[1.057s] Level 5:colcon.colcon_core.verb:set package 'ur5_robot_py' build argument 'cmake_clean_first' from command line to 'False'
+[1.057s] Level 5:colcon.colcon_core.verb:set package 'ur5_robot_py' build argument 'cmake_force_configure' from command line to 'False'
+[1.057s] Level 5:colcon.colcon_core.verb:set package 'ur5_robot_py' build argument 'ament_cmake_args' from command line to 'None'
+[1.057s] Level 5:colcon.colcon_core.verb:set package 'ur5_robot_py' build argument 'catkin_cmake_args' from command line to 'None'
+[1.057s] Level 5:colcon.colcon_core.verb:set package 'ur5_robot_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.057s] DEBUG:colcon.colcon_core.verb:Building package 'ur5_robot_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/taj71/ur5_ws/build/ur5_robot_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/taj71/ur5_ws/install/ur5_robot_py', 'merge_install': False, 'path': '/home/taj71/ur5_ws/src/ur5_robot_py', 'symlink_install': False, 'test_result_base': None}
+[1.057s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.058s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.059s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/taj71/ur5_ws/src/robotiq_description' with build type 'ament_cmake'
+[1.059s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/taj71/ur5_ws/src/robotiq_description'
+[1.063s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.064s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.064s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.069s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/taj71/ur5_ws/src/ur5_controller' with build type 'ament_cmake'
+[1.070s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/taj71/ur5_ws/src/ur5_controller'
+[1.070s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.070s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.077s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/taj71/ur5_ws/src/ur5_robot_description' with build type 'ament_cmake'
+[1.077s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/taj71/ur5_ws/src/ur5_robot_description'
+[1.078s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.078s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.085s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/taj71/ur5_ws/src/ur5_robot_py' with build type 'ament_python'
+[1.085s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5_robot_py', 'ament_prefix_path')
+[1.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taj71/ur5_ws/install/ur5_robot_py/share/ur5_robot_py/hook/ament_prefix_path.ps1'
+[1.087s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taj71/ur5_ws/install/ur5_robot_py/share/ur5_robot_py/hook/ament_prefix_path.dsv'
+[1.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taj71/ur5_ws/install/ur5_robot_py/share/ur5_robot_py/hook/ament_prefix_path.sh'
+[1.091s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.091s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taj71/ur5_ws/build/robotiq_description': CMAKE_PREFIX_PATH=/opt/ros/iron:/opt/ros/humble /usr/bin/cmake --build /home/taj71/ur5_ws/build/robotiq_description -- -j8 -l8
+[1.124s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taj71/ur5_ws/build/ur5_controller': CMAKE_PREFIX_PATH=/opt/ros/iron:/opt/ros/humble /usr/bin/cmake --build /home/taj71/ur5_ws/build/ur5_controller -- -j8 -l8
+[1.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taj71/ur5_ws/build/ur5_robot_description': CMAKE_PREFIX_PATH=/opt/ros/iron:/opt/ros/humble /usr/bin/cmake --build /home/taj71/ur5_ws/build/ur5_robot_description -- -j8 -l8
+[1.589s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/taj71/ur5_ws/src/ur5_robot_py'
+[1.591s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.591s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taj71/ur5_ws/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron:/opt/ros/humble /usr/bin/cmake --build /home/taj71/ur5_ws/build/robotiq_description -- -j8 -l8
+[1.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taj71/ur5_ws/build/robotiq_description': CMAKE_PREFIX_PATH=/opt/ros/iron:/opt/ros/humble /usr/bin/cmake --install /home/taj71/ur5_ws/build/robotiq_description
+[1.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taj71/ur5_ws/build/ur5_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron:/opt/ros/humble /usr/bin/cmake --build /home/taj71/ur5_ws/build/ur5_controller -- -j8 -l8
+[1.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taj71/ur5_ws/build/ur5_controller': CMAKE_PREFIX_PATH=/opt/ros/iron:/opt/ros/humble /usr/bin/cmake --install /home/taj71/ur5_ws/build/ur5_controller
+[1.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taj71/ur5_ws/build/ur5_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron:/opt/ros/humble /usr/bin/cmake --build /home/taj71/ur5_ws/build/ur5_robot_description -- -j8 -l8
+[1.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taj71/ur5_ws/build/ur5_robot_description': CMAKE_PREFIX_PATH=/opt/ros/iron:/opt/ros/humble /usr/bin/cmake --install /home/taj71/ur5_ws/build/ur5_robot_description
+[1.654s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotiq_description)
+[1.671s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/robotiq_description' for CMake module files
+[1.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taj71/ur5_ws/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron:/opt/ros/humble /usr/bin/cmake --install /home/taj71/ur5_ws/build/robotiq_description
+[1.685s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/robotiq_description' for CMake config files
+[1.685s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_description', 'cmake_prefix_path')
+[1.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.ps1'
+[1.687s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.dsv'
+[1.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.sh'
+[1.690s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/robotiq_description/bin'
+[1.690s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/robotiq_description/lib/pkgconfig/robotiq_description.pc'
+[1.691s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/robotiq_description/lib/python3.10/site-packages'
+[1.691s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/robotiq_description/bin'
+[1.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/package.ps1'
+[1.693s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/package.dsv'
+[1.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/package.sh'
+[1.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/package.bash'
+[1.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/package.zsh'
+[1.698s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/taj71/ur5_ws/install/robotiq_description/share/colcon-core/packages/robotiq_description)
+[1.699s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotiq_description)
+[1.699s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/robotiq_description' for CMake module files
+[1.701s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/robotiq_description' for CMake config files
+[1.701s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_description', 'cmake_prefix_path')
+[1.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.ps1'
+[1.703s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.dsv'
+[1.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.sh'
+[1.707s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/robotiq_description/bin'
+[1.707s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/robotiq_description/lib/pkgconfig/robotiq_description.pc'
+[1.707s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/robotiq_description/lib/python3.10/site-packages'
+[1.707s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/robotiq_description/bin'
+[1.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/package.ps1'
+[1.709s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/package.dsv'
+[1.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/package.sh'
+[1.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/package.bash'
+[1.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/taj71/ur5_ws/install/robotiq_description/share/robotiq_description/package.zsh'
+[1.712s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/taj71/ur5_ws/install/robotiq_description/share/colcon-core/packages/robotiq_description)
+[1.714s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur5_controller)
+[1.715s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/ur5_controller' for CMake module files
+[1.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taj71/ur5_ws/build/ur5_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron:/opt/ros/humble /usr/bin/cmake --install /home/taj71/ur5_ws/build/ur5_controller
+[1.718s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/ur5_controller' for CMake config files
+[1.719s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5_controller', 'cmake_prefix_path')
+[1.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/hook/cmake_prefix_path.ps1'
+[1.721s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/hook/cmake_prefix_path.dsv'
+[1.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/hook/cmake_prefix_path.sh'
+[1.723s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/ur5_controller/bin'
+[1.723s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/ur5_controller/lib/pkgconfig/ur5_controller.pc'
+[1.724s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/ur5_controller/lib/python3.10/site-packages'
+[1.724s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/ur5_controller/bin'
+[1.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/package.ps1'
+[1.725s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/package.dsv'
+[1.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/package.sh'
+[1.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/package.bash'
+[1.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/package.zsh'
+[1.727s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/taj71/ur5_ws/install/ur5_controller/share/colcon-core/packages/ur5_controller)
+[1.728s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur5_controller)
+[1.729s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/ur5_controller' for CMake module files
+[1.729s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/ur5_controller' for CMake config files
+[1.729s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5_controller', 'cmake_prefix_path')
+[1.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/hook/cmake_prefix_path.ps1'
+[1.730s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/hook/cmake_prefix_path.dsv'
+[1.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/hook/cmake_prefix_path.sh'
+[1.732s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/ur5_controller/bin'
+[1.732s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/ur5_controller/lib/pkgconfig/ur5_controller.pc'
+[1.733s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/ur5_controller/lib/python3.10/site-packages'
+[1.733s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/ur5_controller/bin'
+[1.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/package.ps1'
+[1.735s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/package.dsv'
+[1.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/package.sh'
+[1.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/package.bash'
+[1.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/package.zsh'
+[1.741s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/taj71/ur5_ws/install/ur5_controller/share/colcon-core/packages/ur5_controller)
+[1.742s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur5_robot_description)
+[1.743s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/ur5_robot_description' for CMake module files
+[1.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taj71/ur5_ws/build/ur5_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron:/opt/ros/humble /usr/bin/cmake --install /home/taj71/ur5_ws/build/ur5_robot_description
+[1.746s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/ur5_robot_description' for CMake config files
+[1.746s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5_robot_description', 'cmake_prefix_path')
+[1.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/hook/cmake_prefix_path.ps1'
+[1.748s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/hook/cmake_prefix_path.dsv'
+[1.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/hook/cmake_prefix_path.sh'
+[1.750s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/ur5_robot_description/bin'
+[1.750s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/ur5_robot_description/lib/pkgconfig/ur5_robot_description.pc'
+[1.751s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/ur5_robot_description/lib/python3.10/site-packages'
+[1.751s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/ur5_robot_description/bin'
+[1.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/package.ps1'
+[1.753s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/package.dsv'
+[1.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/package.sh'
+[1.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/package.bash'
+[1.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/package.zsh'
+[1.757s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/taj71/ur5_ws/install/ur5_robot_description/share/colcon-core/packages/ur5_robot_description)
+[1.758s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur5_robot_description)
+[1.758s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/ur5_robot_description' for CMake module files
+[1.759s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/ur5_robot_description' for CMake config files
+[1.759s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5_robot_description', 'cmake_prefix_path')
+[1.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/hook/cmake_prefix_path.ps1'
+[1.760s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/hook/cmake_prefix_path.dsv'
+[1.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/hook/cmake_prefix_path.sh'
+[1.763s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/ur5_robot_description/bin'
+[1.763s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/ur5_robot_description/lib/pkgconfig/ur5_robot_description.pc'
+[1.763s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/ur5_robot_description/lib/python3.10/site-packages'
+[1.763s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/ur5_robot_description/bin'
+[1.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/package.ps1'
+[1.765s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/package.dsv'
+[1.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/package.sh'
+[1.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/package.bash'
+[1.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/taj71/ur5_ws/install/ur5_robot_description/share/ur5_robot_description/package.zsh'
+[1.770s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/taj71/ur5_ws/install/ur5_robot_description/share/colcon-core/packages/ur5_robot_description)
+[2.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taj71/ur5_ws/src/ur5_robot_py': PYTHONPATH=/home/taj71/ur5_ws/build/ur5_robot_py/prefix_override:/home/taj71/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/taj71/ur5_ws/install/ur5_robot_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ur5_robot_py build --build-base /home/taj71/ur5_ws/build/ur5_robot_py/build install --record /home/taj71/ur5_ws/build/ur5_robot_py/install.log --single-version-externally-managed install_data
+[3.883s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/ur5_robot_py' for CMake module files
+[3.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taj71/ur5_ws/src/ur5_robot_py' returned '0': PYTHONPATH=/home/taj71/ur5_ws/build/ur5_robot_py/prefix_override:/home/taj71/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/taj71/ur5_ws/install/ur5_robot_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ur5_robot_py build --build-base /home/taj71/ur5_ws/build/ur5_robot_py/build install --record /home/taj71/ur5_ws/build/ur5_robot_py/install.log --single-version-externally-managed install_data
+[3.885s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/ur5_robot_py' for CMake config files
+[3.887s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/ur5_robot_py/lib'
+[3.887s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/ur5_robot_py/bin'
+[3.887s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/ur5_robot_py/lib/pkgconfig/ur5_robot_py.pc'
+[3.888s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/ur5_robot_py/lib/python3.10/site-packages'
+[3.888s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5_robot_py', 'pythonpath')
+[3.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taj71/ur5_ws/install/ur5_robot_py/share/ur5_robot_py/hook/pythonpath.ps1'
+[3.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taj71/ur5_ws/install/ur5_robot_py/share/ur5_robot_py/hook/pythonpath.dsv'
+[3.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taj71/ur5_ws/install/ur5_robot_py/share/ur5_robot_py/hook/pythonpath.sh'
+[3.892s] Level 1:colcon.colcon_core.environment:checking '/home/taj71/ur5_ws/install/ur5_robot_py/bin'
+[3.892s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur5_robot_py)
+[3.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/taj71/ur5_ws/install/ur5_robot_py/share/ur5_robot_py/package.ps1'
+[3.894s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/taj71/ur5_ws/install/ur5_robot_py/share/ur5_robot_py/package.dsv'
+[3.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/taj71/ur5_ws/install/ur5_robot_py/share/ur5_robot_py/package.sh'
+[3.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/taj71/ur5_ws/install/ur5_robot_py/share/ur5_robot_py/package.bash'
+[3.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/taj71/ur5_ws/install/ur5_robot_py/share/ur5_robot_py/package.zsh'
+[3.898s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/taj71/ur5_ws/install/ur5_robot_py/share/colcon-core/packages/ur5_robot_py)
+[3.899s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.900s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.900s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.900s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.100s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[4.100s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.100s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.101s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.101s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[4.101s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.102s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/taj71/ur5_ws/install/local_setup.ps1'
+[4.103s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/taj71/ur5_ws/install/_local_setup_util_ps1.py'
+[4.105s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/taj71/ur5_ws/install/setup.ps1'
+[4.106s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/taj71/ur5_ws/install/local_setup.sh'
+[4.107s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/taj71/ur5_ws/install/_local_setup_util_sh.py'
+[4.108s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/taj71/ur5_ws/install/setup.sh'
+[4.109s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/taj71/ur5_ws/install/local_setup.bash'
+[4.110s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/taj71/ur5_ws/install/setup.bash'
+[4.111s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/taj71/ur5_ws/install/local_setup.zsh'
+[4.112s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/taj71/ur5_ws/install/setup.zsh'

@@ -1,0 +1,25 @@
+[0.193s] Invoking command in '/home/taj71/ur5_ws/build/ur5_controller': CMAKE_PREFIX_PATH=/opt/ros/iron:/opt/ros/humble /usr/bin/cmake --build /home/taj71/ur5_ws/build/ur5_controller -- -j8 -l8
+[1.817s] Invoked command in '/home/taj71/ur5_ws/build/ur5_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron:/opt/ros/humble /usr/bin/cmake --build /home/taj71/ur5_ws/build/ur5_controller -- -j8 -l8
+[1.819s] Invoking command in '/home/taj71/ur5_ws/build/ur5_controller': CMAKE_PREFIX_PATH=/opt/ros/iron:/opt/ros/humble /usr/bin/cmake --install /home/taj71/ur5_ws/build/ur5_controller
+[1.894s] -- Install configuration: ""
+[1.894s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/config
+[1.896s] -- Installing: /home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/config/ur5_controller.yaml
+[1.897s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/config/new.yaml
+[1.898s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/launch
+[1.899s] -- Installing: /home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/launch/controller.launch.py
+[1.900s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_controller/share/ament_index/resource_index/package_run_dependencies/ur5_controller
+[1.900s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_controller/share/ament_index/resource_index/parent_prefix_path/ur5_controller
+[1.901s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/environment/ament_prefix_path.sh
+[1.902s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/environment/ament_prefix_path.dsv
+[1.902s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/environment/path.sh
+[1.907s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/environment/path.dsv
+[1.909s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/local_setup.bash
+[1.910s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/local_setup.sh
+[1.910s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/local_setup.zsh
+[1.917s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/local_setup.dsv
+[1.918s] -- Installing: /home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/package.dsv
+[1.918s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_controller/share/ament_index/resource_index/packages/ur5_controller
+[1.919s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/cmake/ur5_controllerConfig.cmake
+[1.919s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/cmake/ur5_controllerConfig-version.cmake
+[1.928s] -- Up-to-date: /home/taj71/ur5_ws/install/ur5_controller/share/ur5_controller/package.xml
+[2.052s] Invoked command in '/home/taj71/ur5_ws/build/ur5_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron:/opt/ros/humble /usr/bin/cmake --install /home/taj71/ur5_ws/build/ur5_controller

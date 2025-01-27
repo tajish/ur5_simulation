@@ -8,14 +8,14 @@
  
    <xacro:if value="$(arg is_classic)">
      <hardware>
-       <plugin>ign_ros2_control/IgnitionSystem</plugin>
-     </hardware>
+        <plugin>ign_ros2_control/IgnitionSystem</plugin>
+      </hardware>
    </xacro:if>
 
    <xacro:unless value="$(arg is_classic)">
-     <hardware> 
-       <plugin>gz_ros2_control/GazeboSimSystem</plugin>
-     </hardware>
+     <hardware>
+        <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+      </hardware>
    </xacro:unless>
 
 
@@ -23,10 +23,6 @@
         <command_interface name="position">
           <param name="min">{-2*pi}</param>
           <param name="max">{2*pi}</param>
-        </command_interface>
-        <command_interface name="velocity">
-          <param name="min">-3.15</param>
-          <param name="max">3.15</param>
         </command_interface>
         <state_interface name="position">
           <param name="initial_value">0.0</param>
@@ -39,10 +35,6 @@
         <command_interface name="position">
           <param name="min">{-2*pi}</param>
           <param name="max">{2*pi}</param>
-        </command_interface>
-        <command_interface name="velocity">
-          <param name="min">-3.15</param>
-          <param name="max">3.15</param>
         </command_interface>
         <state_interface name="position">
           <!-- initial position for the FakeSystem and simulation -->
@@ -57,10 +49,6 @@
           <param name="min">{-pi}</param>
           <param name="max">{pi}</param>
         </command_interface>
-        <command_interface name="velocity">
-          <param name="min">-3.15</param>
-          <param name="max">3.15</param>
-        </command_interface>
         <state_interface name="position">
           <!-- initial position for the FakeSystem and simulation -->
           <param name="initial_value">0.0</param>
@@ -73,10 +61,6 @@
         <command_interface name="position">
           <param name="min">{-2*pi}</param>
           <param name="max">{2*pi}</param>
-        </command_interface>
-        <command_interface name="velocity">
-          <param name="min">-3.2</param>
-          <param name="max">3.2</param>
         </command_interface>
         <state_interface name="position">
           <!-- initial position for the FakeSystem and simulation -->
@@ -91,10 +75,6 @@
           <param name="min">{-2*pi}</param>
           <param name="max">{2*pi}</param>
         </command_interface>
-        <command_interface name="velocity">
-          <param name="min">-3.2</param>
-          <param name="max">3.2</param>
-        </command_interface>
         <state_interface name="position">
           <!-- initial position for the FakeSystem and simulation -->
           <param name="initial_value">0.0</param>
@@ -107,10 +87,6 @@
         <command_interface name="position">
           <param name="min">{-2*pi}</param>
           <param name="max">{2*pi}</param>
-        </command_interface>
-        <command_interface name="velocity">
-          <param name="min">-3.2</param>
-          <param name="max">3.2</param>
         </command_interface>
         <state_interface name="position">
           <!-- initial position for the FakeSystem and simulation -->
