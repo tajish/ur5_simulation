@@ -1,0 +1,53 @@
+[0.070s] Invoking command in '/home/taj71/octo_ws/src/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/taj71/octo_ws/src/build/robotiq_description -- -j8 -l8
+[0.118s] [0mCMake Error: The current CMakeCache.txt directory /home/taj71/octo_ws/src/build/robotiq_description/CMakeCache.txt is different than the directory /home/taj71/ur5_ws/src/build/robotiq_description where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.218s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.884s] -- Found ament_cmake_pytest: 2.0.7 (/opt/ros/iron/share/ament_cmake_pytest/cmake)
+[1.177s] -- Configuring done
+[1.208s] -- Generating done
+[1.219s] -- Build files have been written to: /home/taj71/ur5_ws/src/build/robotiq_description
+[1.345s] Invoked command in '/home/taj71/octo_ws/src/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/taj71/octo_ws/src/build/robotiq_description -- -j8 -l8
+[1.359s] Invoking command in '/home/taj71/octo_ws/src/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/taj71/octo_ws/src/build/robotiq_description
+[1.400s] -- Install configuration: ""
+[1.405s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/config
+[1.405s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/config/config.rviz
+[1.406s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/launch
+[1.406s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/launch/display.launch.py
+[1.406s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/meshes
+[1.410s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/meshes/collision
+[1.410s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/meshes/collision/robotiq_85_inner_knuckle_link.stl
+[1.411s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/meshes/collision/robotiq_85_base_link.stl
+[1.411s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/meshes/collision/robotiq_85_finger_tip_link.stl
+[1.412s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/meshes/collision/robotiq_85_finger_link.stl
+[1.414s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/meshes/collision/robotiq_85_knuckle_link.stl
+[1.415s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/meshes/visual
+[1.416s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/meshes/visual/robotiq_85_inner_knuckle_link.dae
+[1.417s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/meshes/visual/robotiq_85_knuckle_link.dae
+[1.418s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/meshes/visual/robotiq_85_finger_link.dae
+[1.422s] -- Installing: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/meshes/visual/d455.stl
+[1.440s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/meshes/visual/robotiq_85_finger_tip_link.dae
+[1.442s] -- Installing: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/meshes/visual/d455.stl:Zone.Identifier
+[1.469s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/meshes/visual/robotiq_85_base_link.dae
+[1.471s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/rviz
+[1.472s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/rviz/display.rviz
+[1.473s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/urdf
+[1.475s] -- Installing: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/urdf/robotiq_85_gripper2.xacro
+[1.480s] -- Installing: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/urdf/robotiq_85_gripper.xacro
+[1.494s] -- Installing: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/urdf/robotiq_85_gripper.transmission.xacro
+[1.496s] -- Installing: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/urdf/robotiq_85_gripper.urdf.xacro
+[1.497s] -- Installing: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/urdf/robotiq_85_gripper_sim_base.urdf.xacro
+[1.500s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/ament_index/resource_index/package_run_dependencies/robotiq_description
+[1.501s] -- Installing: /home/taj71/ur5_ws/src/install/robotiq_description/share/ament_index/resource_index/parent_prefix_path/robotiq_description
+[1.512s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/environment/ament_prefix_path.sh
+[1.513s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/environment/ament_prefix_path.dsv
+[1.513s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/environment/path.sh
+[1.514s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/environment/path.dsv
+[1.514s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/local_setup.bash
+[1.515s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/local_setup.sh
+[1.515s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/local_setup.zsh
+[1.515s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/local_setup.dsv
+[1.516s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/package.dsv
+[1.516s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/ament_index/resource_index/packages/robotiq_description
+[1.517s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/cmake/robotiq_descriptionConfig.cmake
+[1.517s] -- Up-to-date: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/cmake/robotiq_descriptionConfig-version.cmake
+[1.518s] -- Installing: /home/taj71/ur5_ws/src/install/robotiq_description/share/robotiq_description/package.xml
+[1.612s] Invoked command in '/home/taj71/octo_ws/src/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/taj71/octo_ws/src/build/robotiq_description

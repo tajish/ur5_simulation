@@ -1,0 +1,1 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/taj71/octo_ws/src/build/ur5_robot_description/CMakeCache.txt is different than the directory /home/taj71/ur5_ws/src/build/ur5_robot_description where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m

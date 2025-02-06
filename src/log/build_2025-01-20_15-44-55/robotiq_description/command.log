@@ -1,0 +1,6 @@
+Invoking command in '/home/taj71/ur5_ws/src/build/robotiq_description': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/taj71/ur5_ws/src/robotiq_description -DCMAKE_INSTALL_PREFIX=/home/taj71/ur5_ws/src/install/robotiq_description
+Invoked command in '/home/taj71/ur5_ws/src/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/taj71/ur5_ws/src/robotiq_description -DCMAKE_INSTALL_PREFIX=/home/taj71/ur5_ws/src/install/robotiq_description
+Invoking command in '/home/taj71/ur5_ws/src/build/robotiq_description': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/taj71/ur5_ws/src/build/robotiq_description -- -j8 -l8
+Invoked command in '/home/taj71/ur5_ws/src/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/taj71/ur5_ws/src/build/robotiq_description -- -j8 -l8
+Invoking command in '/home/taj71/ur5_ws/src/build/robotiq_description': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/taj71/ur5_ws/src/build/robotiq_description
+Invoked command in '/home/taj71/ur5_ws/src/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/taj71/ur5_ws/src/build/robotiq_description

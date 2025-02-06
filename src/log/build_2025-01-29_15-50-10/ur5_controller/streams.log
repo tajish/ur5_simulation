@@ -1,0 +1,31 @@
+[0.069s] Invoking command in '/home/taj71/octo_ws/src/build/ur5_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/taj71/octo_ws/src/build/ur5_controller -- -j8 -l8
+[0.103s] [0mCMake Error: The current CMakeCache.txt directory /home/taj71/octo_ws/src/build/ur5_controller/CMakeCache.txt is different than the directory /home/taj71/ur5_ws/src/build/ur5_controller where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.199s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.866s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.210s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.211s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.217s] -- Added test 'lint_cmake' to check CMake code style
+[1.219s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.229s] -- Added test 'xmllint' to check XML markup files
+[1.238s] -- Configuring done
+[1.271s] -- Generating done
+[1.284s] -- Build files have been written to: /home/taj71/ur5_ws/src/build/ur5_controller
+[1.357s] Invoked command in '/home/taj71/octo_ws/src/build/ur5_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/taj71/octo_ws/src/build/ur5_controller -- -j8 -l8
+[1.383s] Invoking command in '/home/taj71/octo_ws/src/build/ur5_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/taj71/octo_ws/src/build/ur5_controller
+[1.413s] -- Install configuration: ""
+[1.413s] -- Installing: /home/taj71/ur5_ws/src/install/ur5_controller/share/ament_index/resource_index/package_run_dependencies/ur5_controller
+[1.414s] -- Installing: /home/taj71/ur5_ws/src/install/ur5_controller/share/ament_index/resource_index/parent_prefix_path/ur5_controller
+[1.425s] -- Up-to-date: /home/taj71/ur5_ws/src/install/ur5_controller/share/ur5_controller/environment/ament_prefix_path.sh
+[1.431s] -- Up-to-date: /home/taj71/ur5_ws/src/install/ur5_controller/share/ur5_controller/environment/ament_prefix_path.dsv
+[1.433s] -- Up-to-date: /home/taj71/ur5_ws/src/install/ur5_controller/share/ur5_controller/environment/path.sh
+[1.434s] -- Up-to-date: /home/taj71/ur5_ws/src/install/ur5_controller/share/ur5_controller/environment/path.dsv
+[1.435s] -- Up-to-date: /home/taj71/ur5_ws/src/install/ur5_controller/share/ur5_controller/local_setup.bash
+[1.436s] -- Up-to-date: /home/taj71/ur5_ws/src/install/ur5_controller/share/ur5_controller/local_setup.sh
+[1.437s] -- Up-to-date: /home/taj71/ur5_ws/src/install/ur5_controller/share/ur5_controller/local_setup.zsh
+[1.444s] -- Up-to-date: /home/taj71/ur5_ws/src/install/ur5_controller/share/ur5_controller/local_setup.dsv
+[1.448s] -- Up-to-date: /home/taj71/ur5_ws/src/install/ur5_controller/share/ur5_controller/package.dsv
+[1.460s] -- Up-to-date: /home/taj71/ur5_ws/src/install/ur5_controller/share/ament_index/resource_index/packages/ur5_controller
+[1.464s] -- Up-to-date: /home/taj71/ur5_ws/src/install/ur5_controller/share/ur5_controller/cmake/ur5_controllerConfig.cmake
+[1.468s] -- Up-to-date: /home/taj71/ur5_ws/src/install/ur5_controller/share/ur5_controller/cmake/ur5_controllerConfig-version.cmake
+[1.472s] -- Installing: /home/taj71/ur5_ws/src/install/ur5_controller/share/ur5_controller/package.xml
+[1.479s] Invoked command in '/home/taj71/octo_ws/src/build/ur5_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/taj71/octo_ws/src/build/ur5_controller

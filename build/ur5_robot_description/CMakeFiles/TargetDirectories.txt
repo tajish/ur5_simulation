@@ -1,0 +1,9 @@
+/home/taj71/practic_ws/build/ur5_robot_description/CMakeFiles/uninstall.dir
+/home/taj71/practic_ws/build/ur5_robot_description/CMakeFiles/ur5_robot_description_uninstall.dir
+/home/taj71/practic_ws/build/ur5_robot_description/CMakeFiles/test.dir
+/home/taj71/practic_ws/build/ur5_robot_description/CMakeFiles/edit_cache.dir
+/home/taj71/practic_ws/build/ur5_robot_description/CMakeFiles/rebuild_cache.dir
+/home/taj71/practic_ws/build/ur5_robot_description/CMakeFiles/list_install_components.dir
+/home/taj71/practic_ws/build/ur5_robot_description/CMakeFiles/install.dir
+/home/taj71/practic_ws/build/ur5_robot_description/CMakeFiles/install/local.dir
+/home/taj71/practic_ws/build/ur5_robot_description/CMakeFiles/install/strip.dir

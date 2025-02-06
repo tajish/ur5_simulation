@@ -1,0 +1,2 @@
+Invoking command in '/home/taj71/practic_ws/build/ur5_gripper_moveit_config': /usr/bin/cmake --build /home/taj71/practic_ws/build/ur5_gripper_moveit_config -- -j8 -l8
+Invoked command in '/home/taj71/practic_ws/build/ur5_gripper_moveit_config' returned '2': /usr/bin/cmake --build /home/taj71/practic_ws/build/ur5_gripper_moveit_config -- -j8 -l8

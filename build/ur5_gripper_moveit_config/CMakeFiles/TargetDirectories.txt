@@ -1,0 +1,9 @@
+/home/taj71/practic_ws/build/ur5_gripper_moveit_config/CMakeFiles/uninstall.dir
+/home/taj71/practic_ws/build/ur5_gripper_moveit_config/CMakeFiles/ur5_gripper_moveit_config_uninstall.dir
+/home/taj71/practic_ws/build/ur5_gripper_moveit_config/CMakeFiles/test.dir
+/home/taj71/practic_ws/build/ur5_gripper_moveit_config/CMakeFiles/edit_cache.dir
+/home/taj71/practic_ws/build/ur5_gripper_moveit_config/CMakeFiles/rebuild_cache.dir
+/home/taj71/practic_ws/build/ur5_gripper_moveit_config/CMakeFiles/list_install_components.dir
+/home/taj71/practic_ws/build/ur5_gripper_moveit_config/CMakeFiles/install.dir
+/home/taj71/practic_ws/build/ur5_gripper_moveit_config/CMakeFiles/install/local.dir
+/home/taj71/practic_ws/build/ur5_gripper_moveit_config/CMakeFiles/install/strip.dir

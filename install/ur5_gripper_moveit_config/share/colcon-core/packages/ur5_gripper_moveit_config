@@ -1,0 +1,1 @@
+moveit_configs_utils:moveit_ros_move_group:robot_state_publisher:ros2launch:rviz2:tf2_ros:ur5_robot_description:urdf:xacro
