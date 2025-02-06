@@ -2,6 +2,7 @@
 /home/taj71/practic_ws/install/ur5_gripper_moveit_config/share/ur5_gripper_moveit_config/config/moveit_controllers.yaml
 /home/taj71/practic_ws/install/ur5_gripper_moveit_config/share/ur5_gripper_moveit_config/config/ros2_controllers.yaml
 /home/taj71/practic_ws/install/ur5_gripper_moveit_config/share/ur5_gripper_moveit_config/config/ur5_robot.urdf.xacro
+/home/taj71/practic_ws/install/ur5_gripper_moveit_config/share/ur5_gripper_moveit_config/config/new.txt
 /home/taj71/practic_ws/install/ur5_gripper_moveit_config/share/ur5_gripper_moveit_config/config/ur5_robot.ros2_control.xacro
 /home/taj71/practic_ws/install/ur5_gripper_moveit_config/share/ur5_gripper_moveit_config/config/txt.yaml
 /home/taj71/practic_ws/install/ur5_gripper_moveit_config/share/ur5_gripper_moveit_config/config/kinematics.yaml

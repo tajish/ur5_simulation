@@ -27,6 +27,7 @@
         <link name="robotiq_85_right_knuckle_link"/>
         <link name="robotiq_85_right_finger_link"/>
         <joint name="robotiq_85_left_knuckle_joint"/>
+        <joint name="robotiq_85_right_knuckle_joint"/>
     </group>
     
     <group_state name="zero" group="manipulator">
@@ -45,11 +46,13 @@
         <joint name="wrist_2_joint" value="0"/>
         <joint name="wrist_3_joint" value="0"/>
     </group_state>
+
     <group_state name="open" group="gripper">
         <joint name="robotiq_85_left_finger_joint" value="0"/>
         <joint name="robotiq_85_left_knuckle_joint" value="0"/>
         <joint name="robotiq_85_right_finger_joint" value="0"/>
     </group_state>
+
     <group_state name="close" group="gripper">
         <joint name="robotiq_85_left_finger_joint" value="0"/>
         <joint name="robotiq_85_left_knuckle_joint" value="0.804"/>
